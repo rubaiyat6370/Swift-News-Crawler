@@ -48,15 +48,16 @@ class MainViewController: UIViewController {
 
 extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print("Count: \(swiftPosts.count)")
         return swiftPosts.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell") as? TableViewCell
         let news = swiftPosts[indexPath.row].data
-        if news.thumbnail != nil {
-            print(news.thumbnail!)
-        }
+//        if news.thumbnail != nil {
+//            print(news.thumbnail!)
+//        }
         cell?.setupCell(news: news)
         return cell!
     }

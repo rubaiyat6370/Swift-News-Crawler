@@ -17,13 +17,14 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sU7-6V-axi">
-                        <rect key="frame" x="12" y="8" width="296" height="22"/>
+                        <rect key="frame" x="20" y="10" width="280" height="16"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hbx-CH-RMk">
-                        <rect key="frame" x="12" y="38" width="80" height="80"/>
+                        <rect key="frame" x="20" y="36" width="80" height="80"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="80" id="9KF-7B-J9p"/>
                             <constraint firstAttribute="height" priority="999" constant="80" id="LUS-UE-TE0"/>
@@ -32,20 +33,21 @@
                     </imageView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="sU7-6V-axi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="Lja-Ly-obG"/>
-                    <constraint firstItem="sU7-6V-axi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ZkG-Y8-MRb"/>
-                    <constraint firstItem="hbx-CH-RMk" firstAttribute="top" secondItem="sU7-6V-axi" secondAttribute="bottom" constant="8" id="dAa-eT-OyS"/>
-                    <constraint firstAttribute="trailing" secondItem="sU7-6V-axi" secondAttribute="trailing" constant="12" id="irQ-8B-pfa"/>
-                    <constraint firstAttribute="bottom" secondItem="hbx-CH-RMk" secondAttribute="bottom" constant="8" id="nJb-L4-sND"/>
-                    <constraint firstItem="hbx-CH-RMk" firstAttribute="leading" secondItem="sU7-6V-axi" secondAttribute="leading" id="r2d-xI-EoX"/>
+                    <constraint firstItem="hbx-CH-RMk" firstAttribute="leading" secondItem="sU7-6V-axi" secondAttribute="leading" id="Kzi-K4-fqr"/>
+                    <constraint firstItem="sU7-6V-axi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Lja-Ly-obG" customClass="WidthConstraint" customModule="SwiftNewsCrawler" customModuleProvider="target"/>
+                    <constraint firstItem="sU7-6V-axi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ZkG-Y8-MRb" customClass="HeightConstraint" customModule="SwiftNewsCrawler" customModuleProvider="target"/>
+                    <constraint firstItem="hbx-CH-RMk" firstAttribute="top" secondItem="sU7-6V-axi" secondAttribute="bottom" constant="10" id="dAa-eT-OyS" customClass="HeightConstraint" customModule="SwiftNewsCrawler" customModuleProvider="target"/>
+                    <constraint firstAttribute="trailing" secondItem="sU7-6V-axi" secondAttribute="trailing" constant="20" id="irQ-8B-pfa" customClass="WidthConstraint" customModule="SwiftNewsCrawler" customModuleProvider="target"/>
+                    <constraint firstAttribute="bottom" secondItem="hbx-CH-RMk" secondAttribute="bottom" constant="10" id="nJb-L4-sND" customClass="HeightConstraint" customModule="SwiftNewsCrawler" customModuleProvider="target"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="headlineLabel" destination="sU7-6V-axi" id="Mv3-Bn-lNE"/>
                 <outlet property="thumbnail" destination="hbx-CH-RMk" id="wwF-MW-mvX"/>
-                <outlet property="thumbnailBottomConstraint" destination="r2d-xI-EoX" id="ON3-jN-UPr"/>
+                <outlet property="thumbnailBottomConstraint" destination="nJb-L4-sND" id="pP9-PL-r7e"/>
                 <outlet property="thumbnailHeightConstraint" destination="LUS-UE-TE0" id="a1W-G7-aYH"/>
+                <outlet property="thumbnailTopConstraint" destination="dAa-eT-OyS" id="7R0-Rk-DiL"/>
                 <outlet property="thumbnailWidthConstraint" destination="9KF-7B-J9p" id="Ceg-p3-swP"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="99.107142857142847"/>

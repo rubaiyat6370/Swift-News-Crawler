@@ -17,8 +17,9 @@
 		BFCB224E23EB4C75002A2E61 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCB224C23EB4C75002A2E61 /* TableViewCell.xib */; };
 		BFCB225023EB61DD002A2E61 /* SwiftNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB224F23EB61DD002A2E61 /* SwiftNews.swift */; };
 		BFCB225223EB87B3002A2E61 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB225123EB87B3002A2E61 /* Network.swift */; };
-		BFCB225923EBCFC1002A2E61 /* DetailArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB225723EBCFC1002A2E61 /* DetailArticleViewController.swift */; };
-		BFCB225A23EBCFC1002A2E61 /* DetailArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCB225823EBCFC1002A2E61 /* DetailArticleViewController.xib */; };
+		BFCB225E23EC7A34002A2E61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB225D23EC7A34002A2E61 /* Constants.swift */; };
+		BFCB226C23EC9CCC002A2E61 /* DetailArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCB226A23EC9CCC002A2E61 /* DetailArticleViewController.xib */; };
+		BFCB226D23EC9CCC002A2E61 /* DetailArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB226B23EC9CCC002A2E61 /* DetailArticleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +47,9 @@
 		BFCB224C23EB4C75002A2E61 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		BFCB224F23EB61DD002A2E61 /* SwiftNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNews.swift; sourceTree = "<group>"; };
 		BFCB225123EB87B3002A2E61 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		BFCB225723EBCFC1002A2E61 /* DetailArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailArticleViewController.swift; sourceTree = "<group>"; };
-		BFCB225823EBCFC1002A2E61 /* DetailArticleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailArticleViewController.xib; sourceTree = "<group>"; };
+		BFCB225D23EC7A34002A2E61 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BFCB226A23EC9CCC002A2E61 /* DetailArticleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailArticleViewController.xib; sourceTree = "<group>"; };
+		BFCB226B23EC9CCC002A2E61 /* DetailArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailArticleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,6 @@
 				BFCB222D23EB36A1002A2E61 /* Assets.xcassets */,
 				BFCB222F23EB36A1002A2E61 /* LaunchScreen.storyboard */,
 				BFCB223223EB36A1002A2E61 /* Info.plist */,
-				BFCB225723EBCFC1002A2E61 /* DetailArticleViewController.swift */,
-				BFCB225823EBCFC1002A2E61 /* DetailArticleViewController.xib */,
 			);
 			path = SwiftNewsCrawler;
 			sourceTree = "<group>";
@@ -117,6 +117,7 @@
 			children = (
 				BFCB224F23EB61DD002A2E61 /* SwiftNews.swift */,
 				BFCB225123EB87B3002A2E61 /* Network.swift */,
+				BFCB225D23EC7A34002A2E61 /* Constants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -133,6 +134,8 @@
 		BFCB224823EB462A002A2E61 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BFCB226B23EC9CCC002A2E61 /* DetailArticleViewController.swift */,
+				BFCB226A23EC9CCC002A2E61 /* DetailArticleViewController.xib */,
 				BFCB222823EB369D002A2E61 /* MainViewController.swift */,
 			);
 			path = Controllers;
@@ -220,7 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCB223123EB36A1002A2E61 /* LaunchScreen.storyboard in Resources */,
-				BFCB225A23EBCFC1002A2E61 /* DetailArticleViewController.xib in Resources */,
+				BFCB226C23EC9CCC002A2E61 /* DetailArticleViewController.xib in Resources */,
 				BFCB224E23EB4C75002A2E61 /* TableViewCell.xib in Resources */,
 				BFCB222E23EB36A1002A2E61 /* Assets.xcassets in Resources */,
 				BFCB222C23EB369D002A2E61 /* Main.storyboard in Resources */,
@@ -241,10 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCB225923EBCFC1002A2E61 /* DetailArticleViewController.swift in Sources */,
 				BFCB225223EB87B3002A2E61 /* Network.swift in Sources */,
 				BFCB225023EB61DD002A2E61 /* SwiftNews.swift in Sources */,
 				BFCB224D23EB4C75002A2E61 /* TableViewCell.swift in Sources */,
+				BFCB226D23EC9CCC002A2E61 /* DetailArticleViewController.swift in Sources */,
+				BFCB225E23EC7A34002A2E61 /* Constants.swift in Sources */,
 				BFCB222923EB369D002A2E61 /* MainViewController.swift in Sources */,
 				BFCB222523EB369D002A2E61 /* AppDelegate.swift in Sources */,
 			);
@@ -408,6 +412,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftNewsCrawler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,6 +430,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftNewsCrawler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

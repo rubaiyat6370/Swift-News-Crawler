@@ -41,7 +41,8 @@ class SwiftNews: Decodable {
         if thumbnailWidth == nil || thumbnailHeight == nil {
             self.thumbnail = nil
         } else {
-            Network.downloadFileFrom(url: thumbnailURL!) { [weak self](imageData) in
+            guard let url = thumbnailURL else { return }
+            Network.downloadFileFrom(url: url) { [weak self](imageData) in
                 guard let data = imageData else {
                     self?.thumbnail = nil
                     return

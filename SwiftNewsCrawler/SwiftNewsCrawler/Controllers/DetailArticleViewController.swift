@@ -25,17 +25,16 @@ class DetailArticleViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.title = article.title
         self.articleBodyLabel.text = article.description
-        print(article.description)
+        //print(article.description)
         if article.thumbnail != nil {
-            thumbnailHeightConstraint.constant = 140
-            thumbnailTopConstraint.constant = 10
+            thumbnailHeightConstraint.constant = 140 * Constants.heightConstant
+            
+            thumbnailTopConstraint.constant = 10 * Constants.heightConstant
             self.thumbnail.image = article.thumbnail!
         }
         else {
             self.thumbnailTopConstraint.constant = 0
             self.thumbnailHeightConstraint.constant = 0
-
-            print(self.thumbnail.frame.size)
         }
     }
 
