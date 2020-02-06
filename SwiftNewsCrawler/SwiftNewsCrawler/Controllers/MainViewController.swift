@@ -38,8 +38,6 @@ class MainViewController: UIViewController {
             }
         }
     }
-
-
 }
 
 //

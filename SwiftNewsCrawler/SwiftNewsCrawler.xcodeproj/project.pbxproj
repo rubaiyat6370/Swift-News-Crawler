@@ -20,6 +20,8 @@
 		BFCB225E23EC7A34002A2E61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB225D23EC7A34002A2E61 /* Constants.swift */; };
 		BFCB226C23EC9CCC002A2E61 /* DetailArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCB226A23EC9CCC002A2E61 /* DetailArticleViewController.xib */; };
 		BFCB226D23EC9CCC002A2E61 /* DetailArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB226B23EC9CCC002A2E61 /* DetailArticleViewController.swift */; };
+		BFCB226F23ECB276002A2E61 /* NetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB226E23ECB276002A2E61 /* NetworkTest.swift */; };
+		BFCB227123ECC34C002A2E61 /* SwiftNewsModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB227023ECC34C002A2E61 /* SwiftNewsModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		BFCB225D23EC7A34002A2E61 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BFCB226A23EC9CCC002A2E61 /* DetailArticleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailArticleViewController.xib; sourceTree = "<group>"; };
 		BFCB226B23EC9CCC002A2E61 /* DetailArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailArticleViewController.swift; sourceTree = "<group>"; };
+		BFCB226E23ECB276002A2E61 /* NetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTest.swift; sourceTree = "<group>"; };
+		BFCB227023ECC34C002A2E61 /* SwiftNewsModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNewsModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			children = (
 				BFCB223B23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift */,
 				BFCB223D23EB36A1002A2E61 /* Info.plist */,
+				BFCB226E23ECB276002A2E61 /* NetworkTest.swift */,
+				BFCB227023ECC34C002A2E61 /* SwiftNewsModelTest.swift */,
 			);
 			path = SwiftNewsCrawlerTests;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFCB227123ECC34C002A2E61 /* SwiftNewsModelTest.swift in Sources */,
+				BFCB226F23ECB276002A2E61 /* NetworkTest.swift in Sources */,
 				BFCB223C23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -396,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -449,7 +457,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftNewsCrawlerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,7 +478,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftNewsCrawlerTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

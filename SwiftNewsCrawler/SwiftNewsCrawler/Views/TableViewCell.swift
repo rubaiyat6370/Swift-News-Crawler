@@ -19,20 +19,21 @@ class TableViewCell: UITableViewCell {
 
     let thumbnailHeightConstant: CGFloat = 80.0
     let thumbnailBottomConstant: CGFloat = 10.0
+    let headlineFontSize: CGFloat = 16.0
 
     @IBOutlet weak var thumbnailTopConstraint: HeightConstraint!
     
     fileprivate func setupThumbnail(image: UIImage, height: CGFloat, width: CGFloat) {
-        thumbnailHeightConstraint.constant = thumbnailHeightConstant * Constants.heightConstant
+        thumbnailHeightConstraint.constant = thumbnailHeightConstant
         let widthRatio: CGFloat = thumbnailHeightConstant/height
-        thumbnailWidthConstraint.constant = width * widthRatio * Constants.widthConstant
-        thumbnailBottomConstraint.constant = thumbnailBottomConstant * Constants.heightConstant
-        //self.thumbnailTopConstraint.constant = thumbnailBottomConstant * Constants.heightConstant
+        thumbnailWidthConstraint.constant = width * widthRatio
+        thumbnailBottomConstraint.constant = thumbnailBottomConstant
         self.thumbnail.image = image
     }
 
     func setupCell(news: SwiftNews) {
         self.headlineLabel.text = news.title
+        //self.headlineLabel.font = UIFont.systemFont(ofSize: headlineFontSize * Constants.widthConstant)
         if news.thumbnail != nil {
             setupThumbnail(image: news.thumbnail!, height: news.thumbnailHeight!, width: news.thumbnailWidth!)
         }
