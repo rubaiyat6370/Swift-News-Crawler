@@ -27,7 +27,7 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LoY-3m-jCS">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="190.5"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ary-Rc-vKy">
                                     <rect key="frame" x="20" y="10" width="374" height="140"/>
@@ -50,8 +50,10 @@
                                 <constraint firstItem="ary-Rc-vKy" firstAttribute="leading" secondItem="LoY-3m-jCS" secondAttribute="leading" constant="20" id="Dlo-dN-u0e"/>
                                 <constraint firstItem="ltw-fH-T3c" firstAttribute="top" secondItem="ary-Rc-vKy" secondAttribute="bottom" constant="10" id="Hfy-zi-VgT"/>
                                 <constraint firstItem="ary-Rc-vKy" firstAttribute="centerX" secondItem="LoY-3m-jCS" secondAttribute="centerX" id="Hy9-sx-BuW"/>
+                                <constraint firstItem="ltw-fH-T3c" firstAttribute="centerX" secondItem="LoY-3m-jCS" secondAttribute="centerX" id="OhY-Rc-26P"/>
                                 <constraint firstAttribute="trailing" secondItem="ary-Rc-vKy" secondAttribute="trailing" constant="20" id="auc-pC-FSX"/>
                                 <constraint firstAttribute="trailing" secondItem="ltw-fH-T3c" secondAttribute="trailing" constant="20" id="jbM-QO-gel"/>
+                                <constraint firstAttribute="bottom" secondItem="ltw-fH-T3c" secondAttribute="bottom" constant="10" id="vA8-US-hvq"/>
                             </constraints>
                         </view>
                     </subviews>
@@ -61,8 +63,7 @@
                         <constraint firstItem="LoY-3m-jCS" firstAttribute="top" secondItem="v5u-DM-qoC" secondAttribute="top" id="K7r-VN-h9w"/>
                         <constraint firstItem="LoY-3m-jCS" firstAttribute="leading" secondItem="Npc-As-iKM" secondAttribute="leading" id="Qa4-U8-dNx"/>
                         <constraint firstItem="LoY-3m-jCS" firstAttribute="width" secondItem="Npc-As-iKM" secondAttribute="width" id="Woz-SI-Hoo"/>
-                        <constraint firstAttribute="bottom" secondItem="LoY-3m-jCS" secondAttribute="bottom" id="dVH-2J-VFd"/>
-                        <constraint firstItem="LoY-3m-jCS" firstAttribute="centerY" secondItem="Npc-As-iKM" secondAttribute="centerY" id="fF4-dC-WMn"/>
+                        <constraint firstAttribute="bottom" secondItem="LoY-3m-jCS" secondAttribute="bottom" priority="999" id="dVH-2J-VFd"/>
                         <constraint firstItem="LoY-3m-jCS" firstAttribute="centerX" secondItem="Npc-As-iKM" secondAttribute="centerX" id="fvS-yE-a1U"/>
                     </constraints>
                     <viewLayoutGuide key="contentLayoutGuide" id="v5u-DM-qoC"/>
