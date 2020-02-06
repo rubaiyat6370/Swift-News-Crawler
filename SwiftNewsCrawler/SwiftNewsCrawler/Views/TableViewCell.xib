@@ -28,6 +28,7 @@
                             <constraint firstAttribute="width" constant="80" id="9KF-7B-J9p"/>
                             <constraint firstAttribute="height" constant="80" id="LUS-UE-TE0"/>
                         </constraints>
+                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
                     </imageView>
                 </subviews>
                 <constraints>

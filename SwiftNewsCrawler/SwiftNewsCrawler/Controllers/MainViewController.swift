@@ -11,9 +11,9 @@ import UIKit
 class MainViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    let urlString = "https://www.reddit.com/r/swift/.json"
+    private let urlString = "https://www.reddit.com/r/swift/.json"
 
-    var swiftPosts: [ChildPost]?
+    var swiftPosts = [ChildPost]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,7 @@ class MainViewController: UIViewController {
         self.tableView.dataSource = self
 
         self.tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "customCell")
+        self.tableView.rowHeight = UITableView.automaticDimension
         requestForNews()
 
     }
@@ -29,7 +30,10 @@ class MainViewController: UIViewController {
     func requestForNews() {
         Network.loadJSONData(urlString: urlString, type: JSONData.self) { (data, error) in
             if let jsonData = data {
-                self.swiftPosts = jsonData.data.children
+                DispatchQueue.main.async {
+                    self.swiftPosts = jsonData.data.children
+                    self.tableView.reloadData()
+                }
             }
         }
     }
@@ -43,15 +47,16 @@ class MainViewController: UIViewController {
 
 extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        1
+        return swiftPosts.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell") as? TableViewCell
-        cell?.headlineLabel.text = "This is a big head line testing label width sdmbs, vn,j"
-        //cell?.imageView?.image = UIImage(systemName: "star")
-        cell?.thumbnailHeightConstraint.constant = 0
-        cell?.thumbnailBottomConstraint.constant = 0
+        let news = swiftPosts[indexPath.row].data
+        if news.thumbnail != nil {
+            print(news.thumbnail!)
+        }
+        cell?.setupCell(news: news)
         return cell!
     }
 

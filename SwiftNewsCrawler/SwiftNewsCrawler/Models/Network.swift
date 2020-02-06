@@ -30,4 +30,20 @@ class Network {
         }
         dataTask.resume()
     }
+
+    static func downloadFileFrom(url: String, completionHandler: @escaping (Data?) -> Void) {
+        guard let url = URL(string: url) else {
+            completionHandler(nil)
+            return
+        }
+        let downloadTask = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            guard let data = data, error == nil else {
+                completionHandler(nil)
+                return
+            }
+            completionHandler(data)
+        }
+        downloadTask.resume()
+
+    }
 }

@@ -16,10 +16,24 @@ class TableViewCell: UITableViewCell {
     
     @IBOutlet weak var thumbnailWidthConstraint: NSLayoutConstraint!
     @IBOutlet weak var thumbnailBottomConstraint: NSLayoutConstraint!
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+    }
+
+    func setupCell(news: SwiftNews) {
+        self.headlineLabel.text = news.title
+        if news.thumbnail != nil {
+            thumbnailHeightConstraint.constant = 80
+            thumbnailBottomConstraint.constant = 8
+            self.thumbnail.image = news.thumbnail!
+            self.thumbnail.isHidden = false
+        }
+        else {
+            self.thumbnail.isHidden = true
+            self.thumbnailBottomConstraint.constant = 0
+            self.thumbnailHeightConstraint.constant = 0
+        }
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
