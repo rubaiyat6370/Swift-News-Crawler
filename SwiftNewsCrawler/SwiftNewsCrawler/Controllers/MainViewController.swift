@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
 
         self.tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "customCell")
         self.tableView.rowHeight = UITableView.automaticDimension
+        self.tableView.estimatedRowHeight = 130
         requestForNews()
 
     }
@@ -60,6 +61,12 @@ extension MainViewController: UITableViewDataSource {
         return cell!
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailAVC = DetailArticleViewController(nibName: "DetailArticleViewController", bundle: nil)
+        let article = swiftPosts[indexPath.row].data
+        detailAVC.article = article
+        self.navigationController?.pushViewController(detailAVC, animated: true)
+    }
 
 }
 
