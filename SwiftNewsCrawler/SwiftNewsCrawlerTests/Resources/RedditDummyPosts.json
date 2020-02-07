@@ -1,0 +1,4220 @@
+{
+  "kind": "Listing",
+  "data": {
+    "modhash": "",
+    "dist": 27,
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "What Swift-related projects are you currently working on?",
+          "author_fullname": "t2_aqtks",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "What\u2019s everyone working on this month? (February 2020)",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezersj",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": "",
+          "subreddit_type": "public",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580959290.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;What Swift-related projects are you currently working on?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": "mod",
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezersj",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Swiftapple",
+          "discussion_type": null,
+          "num_comments": 8,
+          "send_replies": false,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": "dark",
+          "permalink": "/r/swift/comments/ezersj/whats_everyone_working_on_this_month_february_2020/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": true,
+          "url": "https://www.reddit.com/r/swift/comments/ezersj/whats_everyone_working_on_this_month_february_2020/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580930490.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "Post any swift related question here.\n\nHere are some other resources that you may find helpful:\n\n- [The Official Swift Forums](https://forums.swift.org/c/swift-users)\n- [The Swift Programming Language Book](https://docs.swift.org/swift-book/) is the definitive book describing all of Swift.\n- [Hacking with Swift](https://hackingwithswift.com) is a great resource for learning Swift, written by our own u/twostraws.\n\nPrevious thread. [\\[January\\]](https://redd.it/el2z9n)",
+          "author_fullname": "t2_aqtks",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Got an easy question? Ask it here! (February 2020)",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezerwc",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": "",
+          "subreddit_type": "public",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580959302.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Post any swift related question here.&lt;/p&gt;\n\n&lt;p&gt;Here are some other resources that you may find helpful:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"https://forums.swift.org/c/swift-users\"&gt;The Official Swift Forums&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://docs.swift.org/swift-book/\"&gt;The Swift Programming Language Book&lt;/a&gt; is the definitive book describing all of Swift.&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://hackingwithswift.com\"&gt;Hacking with Swift&lt;/a&gt; is a great resource for learning Swift, written by our own &lt;a href=\"/u/twostraws\"&gt;u/twostraws&lt;/a&gt;.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Previous thread. &lt;a href=\"https://redd.it/el2z9n\"&gt;[January]&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/_QArKlECzETtvMpuvjYe6bCC9g4GDToA-GG48WeAW20.jpg?auto=webp&amp;s=f629c0a49e4aaa92449ba32794cf3e737717b518",
+                  "width": 590,
+                  "height": 585
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/_QArKlECzETtvMpuvjYe6bCC9g4GDToA-GG48WeAW20.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=5d3658b06e9263859a81ad28fd0b4e39fa6ae4da",
+                    "width": 108,
+                    "height": 107
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/_QArKlECzETtvMpuvjYe6bCC9g4GDToA-GG48WeAW20.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=a6abf1209e759dbbd85985f6a6039c6c82d4403a",
+                    "width": 216,
+                    "height": 214
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/_QArKlECzETtvMpuvjYe6bCC9g4GDToA-GG48WeAW20.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=b8dceba83e7b210c9e71853c9314981e05e36e5d",
+                    "width": 320,
+                    "height": 317
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "pEdzDuPhjQNkUbvjZWcOHMphCOfFW9cWD3aLjM-IrtU"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": "mod",
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezerwc",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Swiftapple",
+          "discussion_type": null,
+          "num_comments": 3,
+          "send_replies": false,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": "dark",
+          "permalink": "/r/swift/comments/ezerwc/got_an_easy_question_ask_it_here_february_2020/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": true,
+          "url": "https://www.reddit.com/r/swift/comments/ezerwc/got_an_easy_question_ask_it_here_february_2020/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580930502.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "Starting in March 2020, you\u2019ll be able to distribute iOS, iPadOS, macOS, and tvOS versions of your app as a universal purchase, allowing customers to enjoy your app and in\u2011app purchases across platforms by purchasing only once. You can choose to create a new app for these platforms using a single app record in App Store Connect or add platforms to your existing app record. Get started by building and testing your apps using a single bundle ID with Xcode 11.4 beta.\n\nIn addition, categories will be unified across the App Store and Mac App Store to align with this change, and to help make your apps more discoverable. The following changes will be made.\n\n* You\u2019ll be able to select the following categories for iOS apps: \u201cDeveloper Tools\u201d and \u201cGraphics &amp; Design\u201d.\n* You\u2019ll be able to select the following categories for macOS apps: \u201cBooks\u201d, \u201cFood &amp; Drink\u201d, \u201cMagazines &amp; Newspapers\u201d, \u201cNavigation\u201d, and \u201cShopping\u201d.\n* The \u201cPhotography\u201d and \u201cVideo\u201d categories on the Mac App Store will be combined into \u201cPhoto &amp; Video\u201d. Mac apps and pending updates with the \u201cPhotography\u201d or \u201cVideo\u201d category selected in App Store Connect will be moved automatically to the combined category.\n* \u201cKids\u201d will no longer be a subcategory within \u201cGames\u201d on the Mac App Store.\n\nAs a reminder, you can change the categories and subcategories associated with your app at any time with an app update.\n\n&amp;#x200B;\n\n[https://developer.apple.com/news/?id=02052020a](https://developer.apple.com/news/?id=02052020a)",
+          "author_fullname": "t2_l5c9o",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Mac is now includes in universal purchase - Updates to Universal Purchase and App Store Categories",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezmq0j",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 65,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 65,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580991738.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Starting in March 2020, you\u2019ll be able to distribute iOS, iPadOS, macOS, and tvOS versions of your app as a universal purchase, allowing customers to enjoy your app and in\u2011app purchases across platforms by purchasing only once. You can choose to create a new app for these platforms using a single app record in App Store Connect or add platforms to your existing app record. Get started by building and testing your apps using a single bundle ID with Xcode 11.4 beta.&lt;/p&gt;\n\n&lt;p&gt;In addition, categories will be unified across the App Store and Mac App Store to align with this change, and to help make your apps more discoverable. The following changes will be made.&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;You\u2019ll be able to select the following categories for iOS apps: \u201cDeveloper Tools\u201d and \u201cGraphics &amp;amp; Design\u201d.&lt;/li&gt;\n&lt;li&gt;You\u2019ll be able to select the following categories for macOS apps: \u201cBooks\u201d, \u201cFood &amp;amp; Drink\u201d, \u201cMagazines &amp;amp; Newspapers\u201d, \u201cNavigation\u201d, and \u201cShopping\u201d.&lt;/li&gt;\n&lt;li&gt;The \u201cPhotography\u201d and \u201cVideo\u201d categories on the Mac App Store will be combined into \u201cPhoto &amp;amp; Video\u201d. Mac apps and pending updates with the \u201cPhotography\u201d or \u201cVideo\u201d category selected in App Store Connect will be moved automatically to the combined category.&lt;/li&gt;\n&lt;li&gt;\u201cKids\u201d will no longer be a subcategory within \u201cGames\u201d on the Mac App Store.&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;As a reminder, you can change the categories and subcategories associated with your app at any time with an app update.&lt;/p&gt;\n\n&lt;p&gt;&amp;#x200B;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://developer.apple.com/news/?id=02052020a\"&gt;https://developer.apple.com/news/?id=02052020a&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/tXQcvz8Fv1ngwsXqKKmmqoVQ_TeA4_0jjw3f-h61V7Q.jpg?auto=webp&amp;s=cc6d9f61111889db91b34f18ca2ce43d12b9da8e",
+                  "width": 1200,
+                  "height": 630
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/tXQcvz8Fv1ngwsXqKKmmqoVQ_TeA4_0jjw3f-h61V7Q.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=9328c8119dfa5e2c7e95cf889339dbdae9d58680",
+                    "width": 108,
+                    "height": 56
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/tXQcvz8Fv1ngwsXqKKmmqoVQ_TeA4_0jjw3f-h61V7Q.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=c351bd9f705fd54327252a6a9e5cccf7519ece70",
+                    "width": 216,
+                    "height": 113
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/tXQcvz8Fv1ngwsXqKKmmqoVQ_TeA4_0jjw3f-h61V7Q.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=ce2e87db2368fd27bd67d3a88b36991b274f93b8",
+                    "width": 320,
+                    "height": 168
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/tXQcvz8Fv1ngwsXqKKmmqoVQ_TeA4_0jjw3f-h61V7Q.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9616d93a6ea572c9e4f97ab7ae01956283a08df7",
+                    "width": 640,
+                    "height": 336
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/tXQcvz8Fv1ngwsXqKKmmqoVQ_TeA4_0jjw3f-h61V7Q.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=3fa92b9b2ce6ac8214e450ada2e145e1c7f9a530",
+                    "width": 960,
+                    "height": 504
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/tXQcvz8Fv1ngwsXqKKmmqoVQ_TeA4_0jjw3f-h61V7Q.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=4a4b94fcbf87ba66590627eb5d9d8fca2e87b30c",
+                    "width": 1080,
+                    "height": 567
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "xg4xOPTykFzgq5AgRH-kjm5UC80MLdkF8khnRE9zvPA"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezmq0j",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "sarunw",
+          "discussion_type": null,
+          "num_comments": 4,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezmq0j/mac_is_now_includes_in_universal_purchase_updates/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ezmq0j/mac_is_now_includes_in_universal_purchase_updates/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580962938.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "",
+          "author_fullname": "t2_51a6iao8",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Is xcode the best ide for swift in Mac?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "question",
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": true,
+          "name": "t3_ezu6ug",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": "Question",
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1581032975.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "link_flair_template_id": "da126aa4-3912-11e4-92a0-12313d1495ed",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezu6ug",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "PIKa-kNIGHT",
+          "discussion_type": null,
+          "num_comments": 1,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezu6ug/is_xcode_the_best_ide_for_swift_in_mac/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ezu6ug/is_xcode_the_best_ide_for_swift_in_mac/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1581004175.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "In [Advances in Foundation - WWDC 2019](https://developer.apple.com/videos/play/wwdc2019-723/?time=323), it's mentioned that a type was added for one trillionth of a second. I'm curious, when might this be needed?",
+          "author_fullname": "t2_4tolz1k7",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "What are some use cases where picoseconds would matter?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezjxou",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 24,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 24,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580979155.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;In &lt;a href=\"https://developer.apple.com/videos/play/wwdc2019-723/?time=323\"&gt;Advances in Foundation - WWDC 2019&lt;/a&gt;, it&amp;#39;s mentioned that a type was added for one trillionth of a second. I&amp;#39;m curious, when might this be needed?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/OuZqzVcDMQAmbIUb9EqV7fSupQhmdNmhdFHMSi5sMLQ.jpg?auto=webp&amp;s=0b9c1e983b71ba18a7ce14d7d3dacfb0f070731a",
+                  "width": 500,
+                  "height": 282
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/OuZqzVcDMQAmbIUb9EqV7fSupQhmdNmhdFHMSi5sMLQ.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=81d0e135226a783ad6f50e6aab52bc37a51e6fa0",
+                    "width": 108,
+                    "height": 60
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/OuZqzVcDMQAmbIUb9EqV7fSupQhmdNmhdFHMSi5sMLQ.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=ad27a87ce63829669d19ebd736c9730d1743f0f9",
+                    "width": 216,
+                    "height": 121
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/OuZqzVcDMQAmbIUb9EqV7fSupQhmdNmhdFHMSi5sMLQ.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=ec259ed7d45ec5dbab02465a92e07a94968f3f8c",
+                    "width": 320,
+                    "height": 180
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "dNoNRFwptUimBop7HTRjk0UZizKS-q3vsdu_mgfv_cg"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezjxou",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Austin_Aaron_Conlon",
+          "discussion_type": null,
+          "num_comments": 10,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezjxou/what_are_some_use_cases_where_picoseconds_would/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ezjxou/what_are_some_use_cases_where_picoseconds_would/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580950355.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "Let's say I want to 'puppeter/selenium/webdrive' a site like twitter all from within a users iOS app. (so that they don't have to trust a 3rd party server with their credentials)\n\nIssues to overcome: \n\n1. CORS is blocked by iOS browsers. \n\n2. Cross window scripting \n\nMy plan:\n\n&gt; React native (my UI is built in RNative) fetch get request to twitter\n\n&gt; Download the response html as a local file.\n\n&gt; React native GET request to intra-app-local WebServerManager class that serves this local file.\n\n&gt; load this html into a wkwebview so I can inject/run Javascript on it.\n\n&gt; Inject/run javascript via: WKWebview.evaluateJavascript(webdrive/navigate twitter + \u2018monkey patch\u2019 bank site request methods: XMLHttpRequst.prototype.send &amp; fetch = function(req) {\neither:\n&gt;a) pass the constructed request back to native web server to take care of subsequent request\n&gt;b) do this subsequent request within react native, download response, repeat.\n\nIs there a simpler way to do this? Or are there any issues I'll run into following this plan? Thank you.\n\nAlso, if anyone wants to work on this app with me with expertise in this, feel free to reach out &amp; I'd share my repo.",
+          "author_fullname": "t2_9w9bzel",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Simplest Way to Do Cross Origin Scripting Inside an iOS App? Here's what I'm thinking:",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": true,
+          "name": "t3_ezuvzf",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 0,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 0,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": 1581008045.0,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1581035844.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Let&amp;#39;s say I want to &amp;#39;puppeter/selenium/webdrive&amp;#39; a site like twitter all from within a users iOS app. (so that they don&amp;#39;t have to trust a 3rd party server with their credentials)&lt;/p&gt;\n\n&lt;p&gt;Issues to overcome: &lt;/p&gt;\n\n&lt;ol&gt;\n&lt;li&gt;&lt;p&gt;CORS is blocked by iOS browsers. &lt;/p&gt;&lt;/li&gt;\n&lt;li&gt;&lt;p&gt;Cross window scripting &lt;/p&gt;&lt;/li&gt;\n&lt;/ol&gt;\n\n&lt;p&gt;My plan:&lt;/p&gt;\n\n&lt;blockquote&gt;\n&lt;p&gt;React native (my UI is built in RNative) fetch get request to twitter&lt;/p&gt;\n\n&lt;p&gt;Download the response html as a local file.&lt;/p&gt;\n\n&lt;p&gt;React native GET request to intra-app-local WebServerManager class that serves this local file.&lt;/p&gt;\n\n&lt;p&gt;load this html into a wkwebview so I can inject/run Javascript on it.&lt;/p&gt;\n\n&lt;p&gt;Inject/run javascript via: WKWebview.evaluateJavascript(webdrive/navigate twitter + \u2018monkey patch\u2019 bank site request methods: XMLHttpRequst.prototype.send &amp;amp; fetch = function(req) {\neither:\na) pass the constructed request back to native web server to take care of subsequent request\nb) do this subsequent request within react native, download response, repeat.&lt;/p&gt;\n&lt;/blockquote&gt;\n\n&lt;p&gt;Is there a simpler way to do this? Or are there any issues I&amp;#39;ll run into following this plan? Thank you.&lt;/p&gt;\n\n&lt;p&gt;Also, if anyone wants to work on this app with me with expertise in this, feel free to reach out &amp;amp; I&amp;#39;d share my repo.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezuvzf",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "waterloo304",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezuvzf/simplest_way_to_do_cross_origin_scripting_inside/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ezuvzf/simplest_way_to_do_cross_origin_scripting_inside/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1581007044.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "",
+          "author_fullname": "t2_54f17tst",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Forums: Get Base64 encode and decode into the Swift Standard Library",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 138,
+          "hide_score": false,
+          "name": "t3_ezqaf3",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "https://a.thumbs.redditmedia.com/HvVm3Koz8I4i0eih81K1wlT2-KoRKizviRDUiF5ugm0.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "link",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1581012303.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "forums.swift.org",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/_QArKlECzETtvMpuvjYe6bCC9g4GDToA-GG48WeAW20.jpg?auto=webp&amp;s=f629c0a49e4aaa92449ba32794cf3e737717b518",
+                  "width": 590,
+                  "height": 585
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/_QArKlECzETtvMpuvjYe6bCC9g4GDToA-GG48WeAW20.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=5d3658b06e9263859a81ad28fd0b4e39fa6ae4da",
+                    "width": 108,
+                    "height": 107
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/_QArKlECzETtvMpuvjYe6bCC9g4GDToA-GG48WeAW20.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=a6abf1209e759dbbd85985f6a6039c6c82d4403a",
+                    "width": 216,
+                    "height": 214
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/_QArKlECzETtvMpuvjYe6bCC9g4GDToA-GG48WeAW20.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=b8dceba83e7b210c9e71853c9314981e05e36e5d",
+                    "width": 320,
+                    "height": 317
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "pEdzDuPhjQNkUbvjZWcOHMphCOfFW9cWD3aLjM-IrtU"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezqaf3",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "f_fat",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezqaf3/forums_get_base64_encode_and_decode_into_the/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://forums.swift.org/t/discussion-base64-encode-and-decode-in-the-standard-library/33505",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580983503.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "I have a Collection View on my main View Controller, and I want to redraw all of the cells when there is an unwind segue back to this main view from another view as there will be new data which will change how the cells are drawn.\n\nI have a custom class for the Collection View Cell which calls the \\`draw(\\_ rect: CGRect)\\` method to render it, and I just want to redraw the cell by invoking this method once the unwind segue has happened, but I cannot figure out how to call this method from the main view controller.",
+          "author_fullname": "t2_tfv6m",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "How can I redraw a cell in a UICollectionView?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezqurl",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1581016007.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I have a Collection View on my main View Controller, and I want to redraw all of the cells when there is an unwind segue back to this main view from another view as there will be new data which will change how the cells are drawn.&lt;/p&gt;\n\n&lt;p&gt;I have a custom class for the Collection View Cell which calls the `draw(_ rect: CGRect)` method to render it, and I just want to redraw the cell by invoking this method once the unwind segue has happened, but I cannot figure out how to call this method from the main view controller.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezqurl",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "samxcr",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezqurl/how_can_i_redraw_a_cell_in_a_uicollectionview/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ezqurl/how_can_i_redraw_a_cell_in_a_uicollectionview/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580987207.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "",
+          "author_fullname": "t2_4kb1y",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "SwiftConcurrentCollections - thread safe collections (Dictionary/Array), similar to java.util.concurrent",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 140,
+          "hide_score": false,
+          "name": "t3_ez94g3",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 32,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 32,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/X0_vcGc55uiM5_HQnuO-TS7ZL8kOsfitnK-Dqmsl1gA.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "link",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1580936012.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "github.com",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/OSNi3yFqWlQFGClz0p69Op5KPqRCpbV9SEsC4cVg-r4.jpg?auto=webp&amp;s=90deadd57dc461710fa320ae20471a7f1b73f5af",
+                  "width": 400,
+                  "height": 400
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/OSNi3yFqWlQFGClz0p69Op5KPqRCpbV9SEsC4cVg-r4.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=bc871029e6422b435afbbe80996f7e15bce159de",
+                    "width": 108,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/OSNi3yFqWlQFGClz0p69Op5KPqRCpbV9SEsC4cVg-r4.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=29a654b60ca4c9715a114d75a9159b0460ce524d",
+                    "width": 216,
+                    "height": 216
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/OSNi3yFqWlQFGClz0p69Op5KPqRCpbV9SEsC4cVg-r4.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=01838776d63535c1c64fc80ef987cb61038de3b9",
+                    "width": 320,
+                    "height": 320
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "nvpoGnCxSHZU-lQnDwTXsU2-3v6G2Nnc3XiAcNXH0ak"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ez94g3",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "atatator",
+          "discussion_type": null,
+          "num_comments": 7,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ez94g3/swiftconcurrentcollections_thread_safe/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://github.com/peterprokop/SwiftConcurrentCollections",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580907212.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "I have been playing around with Sundell\u2019s open source [Publish](https://github.com/JohnSundell/Publish) Swift static site generator. I haven\u2019t found any good examples of something built and was wondering if there was more docs, tutorials other than the readme it offers.",
+          "author_fullname": "t2_4pbes4l6",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Has anyone built a website using Swift Publish by Sundell?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "question",
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezbg6j",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 16,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": "Question",
+          "can_mod_post": false,
+          "score": 16,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580946436.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I have been playing around with Sundell\u2019s open source &lt;a href=\"https://github.com/JohnSundell/Publish\"&gt;Publish&lt;/a&gt; Swift static site generator. I haven\u2019t found any good examples of something built and was wondering if there was more docs, tutorials other than the readme it offers.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/i29k3GYCV2dvsedjtcwXS8D9vUofNsttD-qoFLf3jTY.jpg?auto=webp&amp;s=16d16f7139f6c5fb1fc4a86361fb282151342730",
+                  "width": 1280,
+                  "height": 640
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/i29k3GYCV2dvsedjtcwXS8D9vUofNsttD-qoFLf3jTY.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=158f576a53ac94d7138d1a88d5228838e7bd0652",
+                    "width": 108,
+                    "height": 54
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/i29k3GYCV2dvsedjtcwXS8D9vUofNsttD-qoFLf3jTY.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=84d8b05f87fe38b527542fa0d1e44aaddbbba7a5",
+                    "width": 216,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/i29k3GYCV2dvsedjtcwXS8D9vUofNsttD-qoFLf3jTY.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=ed0c25893201056fa308b5d4371ad855e9b88a78",
+                    "width": 320,
+                    "height": 160
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/i29k3GYCV2dvsedjtcwXS8D9vUofNsttD-qoFLf3jTY.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=01c0eab14c5ea24ef38253aa0132232714a539ff",
+                    "width": 640,
+                    "height": 320
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/i29k3GYCV2dvsedjtcwXS8D9vUofNsttD-qoFLf3jTY.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=df37e1da83b0325b8b921a8137114947d1d088f9",
+                    "width": 960,
+                    "height": 480
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/i29k3GYCV2dvsedjtcwXS8D9vUofNsttD-qoFLf3jTY.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=f5180bdec37c306818b7dcd6b23e3272a1e32a17",
+                    "width": 1080,
+                    "height": 540
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "7Q80FUuM4ia0S8MYk7cwjZ4yi7RhEZFaCrTcHt04KEA"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "link_flair_template_id": "da126aa4-3912-11e4-92a0-12313d1495ed",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezbg6j",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "buddybudddy",
+          "discussion_type": null,
+          "num_comments": 10,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezbg6j/has_anyone_built_a_website_using_swift_publish_by/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ezbg6j/has_anyone_built_a_website_using_swift_publish_by/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580917636.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "I'm trying to get a job as a junior iOS developer and I would like to get some feedback about my code. For over a year I've been searching for a job or an internship, but I had no luck so I thought maybe someone could tell me what to improve. Here's a link to my [project](https://github.com/RytisRazmus/reddit) .",
+          "author_fullname": "t2_z9uyw",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Can someone do me a favour and review my code?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezahsm",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 15,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 15,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580942400.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;m trying to get a job as a junior iOS developer and I would like to get some feedback about my code. For over a year I&amp;#39;ve been searching for a job or an internship, but I had no luck so I thought maybe someone could tell me what to improve. Here&amp;#39;s a link to my &lt;a href=\"https://github.com/RytisRazmus/reddit\"&gt;project&lt;/a&gt; .&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/_KEu3gcSR2md5R4oJaK4dKF1Y3GwOOC-dZMEicBn50g.jpg?auto=webp&amp;s=887ab625df4940958a7ae546a52f73e43c688630",
+                  "width": 420,
+                  "height": 420
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/_KEu3gcSR2md5R4oJaK4dKF1Y3GwOOC-dZMEicBn50g.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=dfe040f9dfc9419a0aa9ebc9aa36133f5eb616f9",
+                    "width": 108,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/_KEu3gcSR2md5R4oJaK4dKF1Y3GwOOC-dZMEicBn50g.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=22674be2a1b01c9c3c754fd4cb0141b1568962a6",
+                    "width": 216,
+                    "height": 216
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/_KEu3gcSR2md5R4oJaK4dKF1Y3GwOOC-dZMEicBn50g.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=057f649b9e42820068d194eb6e5585e312b7855b",
+                    "width": 320,
+                    "height": 320
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "8HWjJjZDklQvl1RjiZOwROCKtZ11dABzuwxLTcl9EE4"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezahsm",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "strangefeelingg",
+          "discussion_type": null,
+          "num_comments": 27,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezahsm/can_someone_do_me_a_favour_and_review_my_code/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ezahsm/can_someone_do_me_a_favour_and_review_my_code/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580913600.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "Hello everyone. I was wondering have someone tried this courses from this site ([pirple](https://pirple.thinkific.com/))? It seems okay, but wanted to check more about it. I want to start with iOS and MacOS development, and stumbled on this site. Whole course is divided on three segments - Xcode, iOS and macOS.   \nAny information will be helpful.   \nRegards,   \nDragan",
+          "author_fullname": "t2_1w1edsbm",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "iOS and MacOS courses from We Are Pirple site",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezibjh",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 3,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 3,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580972636.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello everyone. I was wondering have someone tried this courses from this site (&lt;a href=\"https://pirple.thinkific.com/\"&gt;pirple&lt;/a&gt;)? It seems okay, but wanted to check more about it. I want to start with iOS and MacOS development, and stumbled on this site. Whole course is divided on three segments - Xcode, iOS and macOS.&lt;br/&gt;\nAny information will be helpful.&lt;br/&gt;\nRegards,&lt;br/&gt;\nDragan&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/-LYSsJty_bEWh4Ai4ylGdikuu953xyyvfeahFBtcmjg.jpg?auto=webp&amp;s=11d8e55f556b12ac1a6ec364cc93935c634c1ee8",
+                  "width": 1000,
+                  "height": 479
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/-LYSsJty_bEWh4Ai4ylGdikuu953xyyvfeahFBtcmjg.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=d63b8b9544f4f092c32ff5755e719db730969b65",
+                    "width": 108,
+                    "height": 51
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/-LYSsJty_bEWh4Ai4ylGdikuu953xyyvfeahFBtcmjg.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=a230d8bd08b01ada3aac74102ba21158cd1b1d3b",
+                    "width": 216,
+                    "height": 103
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/-LYSsJty_bEWh4Ai4ylGdikuu953xyyvfeahFBtcmjg.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=9309cfade096512753660487094f7aab90d78cd8",
+                    "width": 320,
+                    "height": 153
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/-LYSsJty_bEWh4Ai4ylGdikuu953xyyvfeahFBtcmjg.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=99f722d879165b4bf8c8bab8ebd72678bc86c481",
+                    "width": 640,
+                    "height": 306
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/-LYSsJty_bEWh4Ai4ylGdikuu953xyyvfeahFBtcmjg.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=1cf4bef0b68a6557ad9cd7721e3b9282a13ef6e0",
+                    "width": 960,
+                    "height": 459
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "LjLUP1ITzqPjaPJ5Rb3wzqBsfZ4m8yCwsD77D5vXPqE"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezibjh",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "maninjektor",
+          "discussion_type": null,
+          "num_comments": 2,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezibjh/ios_and_macos_courses_from_we_are_pirple_site/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ezibjh/ios_and_macos_courses_from_we_are_pirple_site/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580943836.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "In Xcode, I have a second user interface. When a certain moment occurs in my app, I want the screen to switch to the other screen. How would I code this?\n\n&amp;#x200B;\n\nPseudocode example: \"if \\[button\\] is pressed, open \\[screen2\\]\"",
+          "author_fullname": "t2_3y38zneu",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "How do I make a command to switch to another screen?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezlktb",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580986402.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;In Xcode, I have a second user interface. When a certain moment occurs in my app, I want the screen to switch to the other screen. How would I code this?&lt;/p&gt;\n\n&lt;p&gt;&amp;#x200B;&lt;/p&gt;\n\n&lt;p&gt;Pseudocode example: &amp;quot;if [button] is pressed, open [screen2]&amp;quot;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezlktb",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "pinpinreddit",
+          "discussion_type": null,
+          "num_comments": 2,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezlktb/how_do_i_make_a_command_to_switch_to_another/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ezlktb/how_do_i_make_a_command_to_switch_to_another/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580957602.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "I wrote some helpful tips when answering this question. We need to not only handle the localization, but also handle the layout of the text. [https://redflowerinc.com/how-to-localize-images-in-ios-swift/](https://redflowerinc.com/how-to-localize-images-in-ios-swift/)",
+          "author_fullname": "t2_q4ksj",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Normally overlooked interview question. Handling images when developing an app for both left to right and vice versa languages. Basically you need to use localization and semantic checks. https://redflowerinc.com/how-to-localize-images-in-ios-swift/",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_eziejy",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 0,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 0,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580972902.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I wrote some helpful tips when answering this question. We need to not only handle the localization, but also handle the layout of the text. &lt;a href=\"https://redflowerinc.com/how-to-localize-images-in-ios-swift/\"&gt;https://redflowerinc.com/how-to-localize-images-in-ios-swift/&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/yIjgpa5VKIopmsXzVQKVYFWuJOwMoO27ATZly7L0RAE.jpg?auto=webp&amp;s=36ae808c1bcb73197e29360251cdc6e31fa9536f",
+                  "width": 465,
+                  "height": 698
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/yIjgpa5VKIopmsXzVQKVYFWuJOwMoO27ATZly7L0RAE.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=35d500e41790a2f47419efdfcee4ed8ecf8de060",
+                    "width": 108,
+                    "height": 162
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/yIjgpa5VKIopmsXzVQKVYFWuJOwMoO27ATZly7L0RAE.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=b4956d4727bcb1b0aa0a31dd8b16366bd19c6ad8",
+                    "width": 216,
+                    "height": 324
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/yIjgpa5VKIopmsXzVQKVYFWuJOwMoO27ATZly7L0RAE.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=b83141d188079f5692a82f2dd6832c5c69f8970a",
+                    "width": 320,
+                    "height": 480
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "nJxJ8z6q9DdYwfFzyEHVMiM602ze-mkB24fM1h1opmU"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "eziejy",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "devon09",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": false,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/eziejy/normally_overlooked_interview_question_handling/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/eziejy/normally_overlooked_interview_question_handling/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580944102.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "I have several JSON feeds, for this example let's these two ([A](http://api.citybik.es/v2/networks/citi-bike-nyc) &amp; [B](https://nextbike.net/maps/nextbike-official.json?city=532)). Both have different structures but both have an array of structures identifying the elements I'd like to parse, the bike stations. \n\nI'd like to avoid creating a different class for each JSON feed I have to parse and if possible parse the underlying array of structures with the same `Decodable` `struct`. The definition of my model is as follows,\n\n```\nstruct Places: Decodable {\n    var name: String\n    let lat: Double\n    let lng: Double\n    let id: String\n    let bikes: Int\n\n    enum CodingKeys: String, CodingKey {\n        case name\n        case lat = \"latitude\"\n        case lng = \"longitude\"\n        case id\n        case bikes = \"free_bikes\"\n    }\n}\n```\n\nThis model would only serve for one JSON feed and for each I'd have to create different `CodingKeys`. This is also a problem because the intermediate elements differ from feed to feed. \n\nWhat I currently have is different parsers used on each feed. My app uses the array of `Places` to add pins on a map so the defined `struct` **has** to be the same for every feed that I parse. This is not a scalable solution for me and I'd like to ask if the following is correct,\n\n1. Can I have only one parser that fit all my needs?\n2. Can I have only one parser with different root elements and the same `Places` struct in the end?\n3. Can I build a parser that only accesses the intermediate elements defined in the `Places` structure and \"forget\" about the top level differences between the feeds",
+          "author_fullname": "t2_g9454",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Parsing multiple JSON files with Swift using one Decodable Struct",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezgq9p",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": "",
+          "subreddit_type": "public",
+          "ups": 0,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 0,
+          "approved_by": null,
+          "author_premium": true,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": "",
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580966585.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I have several JSON feeds, for this example let&amp;#39;s these two (&lt;a href=\"http://api.citybik.es/v2/networks/citi-bike-nyc\"&gt;A&lt;/a&gt; &amp;amp; &lt;a href=\"https://nextbike.net/maps/nextbike-official.json?city=532\"&gt;B&lt;/a&gt;). Both have different structures but both have an array of structures identifying the elements I&amp;#39;d like to parse, the bike stations. &lt;/p&gt;\n\n&lt;p&gt;I&amp;#39;d like to avoid creating a different class for each JSON feed I have to parse and if possible parse the underlying array of structures with the same &lt;code&gt;Decodable&lt;/code&gt; &lt;code&gt;struct&lt;/code&gt;. The definition of my model is as follows,&lt;/p&gt;\n\n&lt;p&gt;```\nstruct Places: Decodable {\n    var name: String\n    let lat: Double\n    let lng: Double\n    let id: String\n    let bikes: Int&lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt;enum CodingKeys: String, CodingKey {\n    case name\n    case lat = &amp;quot;latitude&amp;quot;\n    case lng = &amp;quot;longitude&amp;quot;\n    case id\n    case bikes = &amp;quot;free_bikes&amp;quot;\n}\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;}\n```&lt;/p&gt;\n\n&lt;p&gt;This model would only serve for one JSON feed and for each I&amp;#39;d have to create different &lt;code&gt;CodingKeys&lt;/code&gt;. This is also a problem because the intermediate elements differ from feed to feed. &lt;/p&gt;\n\n&lt;p&gt;What I currently have is different parsers used on each feed. My app uses the array of &lt;code&gt;Places&lt;/code&gt; to add pins on a map so the defined &lt;code&gt;struct&lt;/code&gt; &lt;strong&gt;has&lt;/strong&gt; to be the same for every feed that I parse. This is not a scalable solution for me and I&amp;#39;d like to ask if the following is correct,&lt;/p&gt;\n\n&lt;ol&gt;\n&lt;li&gt;Can I have only one parser that fit all my needs?&lt;/li&gt;\n&lt;li&gt;Can I have only one parser with different root elements and the same &lt;code&gt;Places&lt;/code&gt; struct in the end?&lt;/li&gt;\n&lt;li&gt;Can I build a parser that only accesses the intermediate elements defined in the &lt;code&gt;Places&lt;/code&gt; structure and &amp;quot;forget&amp;quot; about the top level differences between the feeds&lt;/li&gt;\n&lt;/ol&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": "iOS",
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezgq9p",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "jdmg718",
+          "discussion_type": null,
+          "num_comments": 2,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": "dark",
+          "permalink": "/r/swift/comments/ezgq9p/parsing_multiple_json_files_with_swift_using_one/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ezgq9p/parsing_multiple_json_files_with_swift_using_one/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580937785.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "",
+          "author_fullname": "t2_4nmod4mu",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Early Access opened for new book \"Thinking in SwiftUI\"",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "news",
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_eyyv95",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 33,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": "News",
+          "can_mod_post": false,
+          "score": 33,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "default",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "crosspost_parent_list": [
+            {
+              "approved_at_utc": null,
+              "subreddit": "iOSProgramming",
+              "selftext": "The guys from [objc.io](https://objc.io) have opened early access to their new book \"Thinking in SwiftUI\". During this phase, they\u2019ll release a new chapter every week, for six weeks.\n\nFurthermore, they write that the book: \"will help you build a mental model of how SwiftUI works. We explain the most important concepts in detail, and we follow them up with exercises to give you hands-on\u00a0experience. SwiftUI  is still a young framework, and as such, we don\u2019t believe it\u2019s  appropriate to write a complete reference. Instead, this book focuses on  transitioning your way of thinking from the object-oriented style of  UIKit to the declarative style of\u00a0SwiftUI.\"\n\n[https://www.objc.io/books/thinking-in-swiftui/](https://www.objc.io/books/thinking-in-swiftui/)",
+              "author_fullname": "t2_4nmod4mu",
+              "saved": false,
+              "mod_reason_title": null,
+              "gilded": 0,
+              "clicked": false,
+              "title": "Early Access opened for new book \"Thinking in SwiftUI\"",
+              "link_flair_richtext": [
+                {
+                  "e": "text",
+                  "t": "News"
+                }
+              ],
+              "subreddit_name_prefixed": "r/iOSProgramming",
+              "hidden": false,
+              "pwls": 6,
+              "link_flair_css_class": "news",
+              "downs": 0,
+              "thumbnail_height": null,
+              "hide_score": false,
+              "name": "t3_eyyuih",
+              "quarantine": false,
+              "link_flair_text_color": "light",
+              "author_flair_background_color": null,
+              "subreddit_type": "public",
+              "ups": 32,
+              "total_awards_received": 0,
+              "media_embed": {
+
+              },
+              "thumbnail_width": null,
+              "author_flair_template_id": null,
+              "is_original_content": false,
+              "user_reports": [
+
+              ],
+              "secure_media": null,
+              "is_reddit_media_domain": false,
+              "is_meta": false,
+              "category": null,
+              "secure_media_embed": {
+
+              },
+              "link_flair_text": "News",
+              "can_mod_post": false,
+              "score": 32,
+              "approved_by": null,
+              "author_premium": false,
+              "thumbnail": "self",
+              "edited": false,
+              "author_flair_css_class": null,
+              "author_flair_richtext": [
+
+              ],
+              "gildings": {
+
+              },
+              "content_categories": null,
+              "is_self": true,
+              "mod_note": null,
+              "created": 1580885798.0,
+              "link_flair_type": "richtext",
+              "wls": 6,
+              "removed_by_category": null,
+              "banned_by": null,
+              "author_flair_type": "text",
+              "domain": "self.iOSProgramming",
+              "allow_live_comments": false,
+              "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;The guys from &lt;a href=\"https://objc.io\"&gt;objc.io&lt;/a&gt; have opened early access to their new book &amp;quot;Thinking in SwiftUI&amp;quot;. During this phase, they\u2019ll release a new chapter every week, for six weeks.&lt;/p&gt;\n\n&lt;p&gt;Furthermore, they write that the book: &amp;quot;will help you build a mental model of how SwiftUI works. We explain the most important concepts in detail, and we follow them up with exercises to give you hands-on\u00a0experience. SwiftUI  is still a young framework, and as such, we don\u2019t believe it\u2019s  appropriate to write a complete reference. Instead, this book focuses on  transitioning your way of thinking from the object-oriented style of  UIKit to the declarative style of\u00a0SwiftUI.&amp;quot;&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://www.objc.io/books/thinking-in-swiftui/\"&gt;https://www.objc.io/books/thinking-in-swiftui/&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+              "likes": null,
+              "suggested_sort": "top",
+              "banned_at_utc": null,
+              "view_count": null,
+              "archived": false,
+              "no_follow": false,
+              "is_crosspostable": false,
+              "pinned": false,
+              "over_18": false,
+              "all_awardings": [
+
+              ],
+              "awarders": [
+
+              ],
+              "media_only": false,
+              "link_flair_template_id": "371ccf94-75bf-11e9-8b8b-0ebef213dc3a",
+              "can_gild": false,
+              "spoiler": false,
+              "locked": false,
+              "author_flair_text": null,
+              "visited": false,
+              "removed_by": null,
+              "num_reports": null,
+              "distinguished": null,
+              "subreddit_id": "t5_2s61a",
+              "mod_reason_by": null,
+              "removal_reason": null,
+              "link_flair_background_color": "#373c3f",
+              "id": "eyyuih",
+              "is_robot_indexable": true,
+              "report_reasons": null,
+              "author": "BaronSharktooth",
+              "discussion_type": null,
+              "num_comments": 3,
+              "send_replies": true,
+              "whitelist_status": "all_ads",
+              "contest_mode": false,
+              "mod_reports": [
+
+              ],
+              "author_patreon_flair": false,
+              "author_flair_text_color": null,
+              "permalink": "/r/iOSProgramming/comments/eyyuih/early_access_opened_for_new_book_thinking_in/",
+              "parent_whitelist_status": "all_ads",
+              "stickied": false,
+              "url": "https://www.reddit.com/r/iOSProgramming/comments/eyyuih/early_access_opened_for_new_book_thinking_in/",
+              "subreddit_subscribers": 67381,
+              "created_utc": 1580856998.0,
+              "num_crossposts": 2,
+              "media": null,
+              "is_video": false
+            }
+          ],
+          "created": 1580885874.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.iOSProgramming",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "link_flair_template_id": "ffbb4136-3912-11e4-866c-12313b0b7d93",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "eyyv95",
+          "is_robot_indexable": true,
+          "stickied": false,
+          "author": "BaronSharktooth",
+          "discussion_type": null,
+          "num_comments": 23,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "crosspost_parent": "t3_eyyuih",
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/eyyv95/early_access_opened_for_new_book_thinking_in/",
+          "parent_whitelist_status": "all_ads",
+          "report_reasons": null,
+          "url": "/r/iOSProgramming/comments/eyyuih/early_access_opened_for_new_book_thinking_in/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580857074.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "",
+          "author_fullname": "t2_l5c9o",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Gradient in SwiftUI",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "tutorial",
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ezcn3v",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": "Tutorial",
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "default",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1580951092.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "sarunw.com",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "link_flair_template_id": "f8c2b026-3912-11e4-babd-12313b0e9994",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ezcn3v",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "sarunw",
+          "discussion_type": null,
+          "num_comments": 3,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ezcn3v/gradient_in_swiftui/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://sarunw.com/posts/gradient-in-swiftui/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580922292.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "I would like to combine an .insetGrouped style tableview and also a .grouped style tableview. There doesn't seem to be an obvious way to do this. I was thinking of having a scrollview as a container and then having two seperate tableviewcontrollers with the respective styles and scrolling disabled on them. Is there a better way to do it? I'm trying to follow best practices which is why I ask.",
+          "author_fullname": "t2_a6t6h",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Best practice for combining two different table styles?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ez7yh8",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580929423.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I would like to combine an .insetGrouped style tableview and also a .grouped style tableview. There doesn&amp;#39;t seem to be an obvious way to do this. I was thinking of having a scrollview as a container and then having two seperate tableviewcontrollers with the respective styles and scrolling disabled on them. Is there a better way to do it? I&amp;#39;m trying to follow best practices which is why I ask.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ez7yh8",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "MoronInGrey",
+          "discussion_type": null,
+          "num_comments": 6,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ez7yh8/best_practice_for_combining_two_different_table/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ez7yh8/best_practice_for_combining_two_different_table/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580900623.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "I want to learn swift and bought a MacBook Pro 2015 that\u2019s going to arrive in 2 weeks. Where do I need to start. I have a small background in python, I took a class and understand most of the basics. I want to get into app development and GUI development and I felt that learning swift would be perfect. So yeah, where to begin?",
+          "author_fullname": "t2_3n3v2jdn",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "MacBook coming in in 2 weeks, where to start as soon as I fire it up?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "question",
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_ez4inh",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 4,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": "Question",
+          "can_mod_post": false,
+          "score": 4,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580909595.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I want to learn swift and bought a MacBook Pro 2015 that\u2019s going to arrive in 2 weeks. Where do I need to start. I have a small background in python, I took a class and understand most of the basics. I want to get into app development and GUI development and I felt that learning swift would be perfect. So yeah, where to begin?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "link_flair_template_id": "da126aa4-3912-11e4-92a0-12313d1495ed",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "ez4inh",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Iamtraps",
+          "discussion_type": null,
+          "num_comments": 10,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/ez4inh/macbook_coming_in_in_2_weeks_where_to_start_as/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/ez4inh/macbook_coming_in_in_2_weeks_where_to_start_as/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580880795.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "Fabric was just plain awesome. I still use it today and will continue to use it until it's officially switched off on March 31st. I was fairly sad when I found out Google had acquired the service, but that sadness quickly transitioned to frustration when I realized Firebase Analytics/Crashlytics is not supported on macOS.\n\nSo what's happening to all of the existing macOS apps on Fabric? Well, you can still migrate them to Firebase... but you won't have Analytics/Crashlytics \u2013 at least, officially. I've attempted a number of workarounds, read through pages of questions on Stack Overflow, as well as GitHub issue reports and Googles' support forums. **Nothing.**\n\nEvery Stack Overflow questions is either unanswered or unhelpful. Google's dev forums and Firebase documentation seem to provide conflicting information of themselves and one another. Google also seems to be locking and closing their own GitHub issue reports regarding macOS without providing answers (and some [weird, nonsensical answers](https://github.com/firebase/firebase-ios-sdk/issues/2149) that claim it works for macOS, but will then point you to the iOS documentation where it clearly states that it's only compatible with the mobile platform \u2013 followed by someone else saying that those docs didn't work, and then the classic lock &amp; close of the issue).\n\nFurthermore, everything I've read about macOS compatibility *coming soon* has always come from an independent developer, some Stack Overflow answer or a contributing dev on GitHub who then goes on to link to conflicting information. There's never an answer directly from Google. If anyone has news on this that they can confirm, please link it in the comments!\n\n**TL;DR**\n\nWith real-time user feedback, important data such as adoption rates for newly released updates, live crash notifications and so much more \u2013 Fabric was everything I wanted in a macOS analytics service. However, it seems that Google is kicking us to the curb once Fabric is officially decommissioned.\n\nWhat are some solid alternatives for Mac Crashlytics?",
+          "author_fullname": "t2_q0oku",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "With Fabric deprecated, and no official macOS support for Firebase Analytics, what are you using for Mac Crashlytics?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "question",
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_eyrsh2",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 39,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": "Question",
+          "can_mod_post": false,
+          "score": 39,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "self",
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580859441.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Fabric was just plain awesome. I still use it today and will continue to use it until it&amp;#39;s officially switched off on March 31st. I was fairly sad when I found out Google had acquired the service, but that sadness quickly transitioned to frustration when I realized Firebase Analytics/Crashlytics is not supported on macOS.&lt;/p&gt;\n\n&lt;p&gt;So what&amp;#39;s happening to all of the existing macOS apps on Fabric? Well, you can still migrate them to Firebase... but you won&amp;#39;t have Analytics/Crashlytics \u2013 at least, officially. I&amp;#39;ve attempted a number of workarounds, read through pages of questions on Stack Overflow, as well as GitHub issue reports and Googles&amp;#39; support forums. &lt;strong&gt;Nothing.&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;Every Stack Overflow questions is either unanswered or unhelpful. Google&amp;#39;s dev forums and Firebase documentation seem to provide conflicting information of themselves and one another. Google also seems to be locking and closing their own GitHub issue reports regarding macOS without providing answers (and some &lt;a href=\"https://github.com/firebase/firebase-ios-sdk/issues/2149\"&gt;weird, nonsensical answers&lt;/a&gt; that claim it works for macOS, but will then point you to the iOS documentation where it clearly states that it&amp;#39;s only compatible with the mobile platform \u2013 followed by someone else saying that those docs didn&amp;#39;t work, and then the classic lock &amp;amp; close of the issue).&lt;/p&gt;\n\n&lt;p&gt;Furthermore, everything I&amp;#39;ve read about macOS compatibility &lt;em&gt;coming soon&lt;/em&gt; has always come from an independent developer, some Stack Overflow answer or a contributing dev on GitHub who then goes on to link to conflicting information. There&amp;#39;s never an answer directly from Google. If anyone has news on this that they can confirm, please link it in the comments!&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;With real-time user feedback, important data such as adoption rates for newly released updates, live crash notifications and so much more \u2013 Fabric was everything I wanted in a macOS analytics service. However, it seems that Google is kicking us to the curb once Fabric is officially decommissioned.&lt;/p&gt;\n\n&lt;p&gt;What are some solid alternatives for Mac Crashlytics?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/4KCzQ631h_SlZLEFdsBgiTikGlj0uacGS_IATKBgyuY.jpg?auto=webp&amp;s=6d8ac28bd52c37939ad95714196ef1f09838f2fb",
+                  "width": 400,
+                  "height": 400
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/4KCzQ631h_SlZLEFdsBgiTikGlj0uacGS_IATKBgyuY.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=a222399803197c6b6fca90353af49931c7293997",
+                    "width": 108,
+                    "height": 108
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/4KCzQ631h_SlZLEFdsBgiTikGlj0uacGS_IATKBgyuY.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=93b2137ebdffb2251a434e5544774c315380b22e",
+                    "width": 216,
+                    "height": 216
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/4KCzQ631h_SlZLEFdsBgiTikGlj0uacGS_IATKBgyuY.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=4c498abaec18479ba25c611614d48415304a3ee8",
+                    "width": 320,
+                    "height": 320
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "neFvBPTwAwCUnbrw4Hw8O7XJkwozxnmgmU_m6dlgV04"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "link_flair_template_id": "da126aa4-3912-11e4-92a0-12313d1495ed",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "eyrsh2",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Rednaxila",
+          "discussion_type": null,
+          "num_comments": 5,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/eyrsh2/with_fabric_deprecated_and_no_official_macos/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/eyrsh2/with_fabric_deprecated_and_no_official_macos/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580830641.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "",
+          "author_fullname": "t2_4mdar2t0",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Dependency Injection Container in Swift",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": 140,
+          "hide_score": false,
+          "name": "t3_eyq7v6",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 25,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 25,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/QUT-xVSjBTB-GSTgw54FXznR0LV7rNEYma5TfAIQZXA.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "post_hint": "link",
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "created": 1580852571.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "medium.com",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "preview": {
+            "images": [
+              {
+                "source": {
+                  "url": "https://external-preview.redd.it/CphdyNidI4b8kxz8cAiJ2IMR18BQnvKxlDFmnvek-Do.jpg?auto=webp&amp;s=e827e10293d714aff226a75d5aa7feb437652a32",
+                  "width": 1200,
+                  "height": 1499
+                },
+                "resolutions": [
+                  {
+                    "url": "https://external-preview.redd.it/CphdyNidI4b8kxz8cAiJ2IMR18BQnvKxlDFmnvek-Do.jpg?width=108&amp;crop=smart&amp;auto=webp&amp;s=1ff1b450cd4c7c5d18d1734f2243669cd4521bb4",
+                    "width": 108,
+                    "height": 134
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/CphdyNidI4b8kxz8cAiJ2IMR18BQnvKxlDFmnvek-Do.jpg?width=216&amp;crop=smart&amp;auto=webp&amp;s=8ee269fc564627479479faf1359c76eb1e741354",
+                    "width": 216,
+                    "height": 269
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/CphdyNidI4b8kxz8cAiJ2IMR18BQnvKxlDFmnvek-Do.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=72532d71d69d46dd29e68904c8a4b77dfe4d02ed",
+                    "width": 320,
+                    "height": 399
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/CphdyNidI4b8kxz8cAiJ2IMR18BQnvKxlDFmnvek-Do.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=eb8caffb8dfa0495545df764fc626c5f421ace77",
+                    "width": 640,
+                    "height": 799
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/CphdyNidI4b8kxz8cAiJ2IMR18BQnvKxlDFmnvek-Do.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=37cb01dcbb2c8e7ebfb0134ccf1f82f27778d577",
+                    "width": 960,
+                    "height": 1199
+                  },
+                  {
+                    "url": "https://external-preview.redd.it/CphdyNidI4b8kxz8cAiJ2IMR18BQnvKxlDFmnvek-Do.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=e103ed7c499e6955d7b2b5941cf37655be8c8741",
+                    "width": 1080,
+                    "height": 1349
+                  }
+                ],
+                "variants": {
+
+                },
+                "id": "Ekmx8x_1CL_LRREVzCJR5s3kVoRLibXBAS_H5kiTFI0"
+              }
+            ],
+            "enabled": false
+          },
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "eyq7v6",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Badc-Aptain",
+          "discussion_type": null,
+          "num_comments": 5,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/eyq7v6/dependency_injection_container_in_swift/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://medium.com/@ronen.harati/dependency-injection-container-in-swift-b4d7e139338c",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580823771.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "I made a simple game driven by a timer loop that is supposed to create a random interval between each repeat. \n\n     let timer = Timer.publish(every: Double.random(in: 0.25...2), on: .main, in: \n    .common).autoconnect()\n\nI think it is actually keeping the same random interval however, instead of rerolling the random double each interval. I can stop the time in the onReceive method if I want but then cant restart it. Should I be using a different approach to creating this timer?",
+          "author_fullname": "t2_nxbnl",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "timer publisher in swiftui for random intervals",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_eyxij0",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 2,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 2,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580880764.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I made a simple game driven by a timer loop that is supposed to create a random interval between each repeat. &lt;/p&gt;\n\n&lt;pre&gt;&lt;code&gt; let timer = Timer.publish(every: Double.random(in: 0.25...2), on: .main, in: \n.common).autoconnect()\n&lt;/code&gt;&lt;/pre&gt;\n\n&lt;p&gt;I think it is actually keeping the same random interval however, instead of rerolling the random double each interval. I can stop the time in the onReceive method if I want but then cant restart it. Should I be using a different approach to creating this timer?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "eyxij0",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "And_Ends_Battle",
+          "discussion_type": null,
+          "num_comments": 2,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/eyxij0/timer_publisher_in_swiftui_for_random_intervals/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/eyxij0/timer_publisher_in_swiftui_for_random_intervals/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580851964.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "Just a SpriteKit starter and have 22 SpriteNodes that have a separate action for each.\n\nI can find a touch location and check if it is within a SpriteNode but do I have to check all 22 every touch? If anyone has seen a tutorial or example tackling this I would really appreciate the info.\n\nThank you very much.",
+          "author_fullname": "t2_12bswx",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "I have 22 SpriteNodes that can be touched. Is there a eloquent way to see which one was without checking everyone?",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_eyzour",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580889021.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Just a SpriteKit starter and have 22 SpriteNodes that have a separate action for each.&lt;/p&gt;\n\n&lt;p&gt;I can find a touch location and check if it is within a SpriteNode but do I have to check all 22 every touch? If anyone has seen a tutorial or example tackling this I would really appreciate the info.&lt;/p&gt;\n\n&lt;p&gt;Thank you very much.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "eyzour",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "RaycasterV",
+          "discussion_type": null,
+          "num_comments": 5,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/eyzour/i_have_22_spritenodes_that_can_be_touched_is/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/eyzour/i_have_22_spritenodes_that_can_be_touched_is/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580860221.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "",
+          "author_fullname": "t2_4tolz1k7",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Wrote in Feedback Assistant that Apple should add SwiftUI tutorial content for making a Mac app. They responded and it's now live!",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_eyfwst",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 87,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 87,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "default",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "crosspost_parent_list": [
+            {
+              "approved_at_utc": null,
+              "subreddit": "SwiftUI",
+              "selftext": "",
+              "author_fullname": "t2_4tolz1k7",
+              "saved": false,
+              "mod_reason_title": null,
+              "gilded": 0,
+              "clicked": false,
+              "title": "Wrote in Feedback Assistant that Apple should add SwiftUI tutorial content for making a Mac app. They responded and it's now live!",
+              "link_flair_richtext": [
+
+              ],
+              "subreddit_name_prefixed": "r/SwiftUI",
+              "hidden": false,
+              "pwls": null,
+              "link_flair_css_class": null,
+              "downs": 0,
+              "thumbnail_height": null,
+              "hide_score": false,
+              "name": "t3_eyfwfa",
+              "quarantine": false,
+              "link_flair_text_color": "dark",
+              "author_flair_background_color": null,
+              "subreddit_type": "public",
+              "ups": 47,
+              "total_awards_received": 0,
+              "media_embed": {
+
+              },
+              "thumbnail_width": null,
+              "author_flair_template_id": null,
+              "is_original_content": false,
+              "user_reports": [
+
+              ],
+              "secure_media": null,
+              "is_reddit_media_domain": false,
+              "is_meta": false,
+              "category": null,
+              "secure_media_embed": {
+
+              },
+              "link_flair_text": null,
+              "can_mod_post": false,
+              "score": 47,
+              "approved_by": null,
+              "author_premium": false,
+              "thumbnail": "default",
+              "edited": false,
+              "author_flair_css_class": null,
+              "author_flair_richtext": [
+
+              ],
+              "gildings": {
+
+              },
+              "content_categories": null,
+              "is_self": false,
+              "mod_note": null,
+              "created": 1580800043.0,
+              "link_flair_type": "text",
+              "wls": null,
+              "removed_by_category": null,
+              "banned_by": null,
+              "author_flair_type": "text",
+              "domain": "developer.apple.com",
+              "allow_live_comments": false,
+              "selftext_html": null,
+              "likes": null,
+              "suggested_sort": "top",
+              "banned_at_utc": null,
+              "view_count": null,
+              "archived": false,
+              "no_follow": false,
+              "is_crosspostable": false,
+              "pinned": false,
+              "over_18": false,
+              "all_awardings": [
+
+              ],
+              "awarders": [
+
+              ],
+              "media_only": false,
+              "can_gild": false,
+              "spoiler": false,
+              "locked": false,
+              "author_flair_text": null,
+              "visited": false,
+              "removed_by": null,
+              "num_reports": null,
+              "distinguished": null,
+              "subreddit_id": "t5_12hozx",
+              "mod_reason_by": null,
+              "removal_reason": null,
+              "link_flair_background_color": "",
+              "id": "eyfwfa",
+              "is_robot_indexable": true,
+              "report_reasons": null,
+              "author": "Austin_Aaron_Conlon",
+              "discussion_type": null,
+              "num_comments": 5,
+              "send_replies": true,
+              "whitelist_status": null,
+              "contest_mode": false,
+              "mod_reports": [
+
+              ],
+              "author_patreon_flair": false,
+              "author_flair_text_color": null,
+              "permalink": "/r/SwiftUI/comments/eyfwfa/wrote_in_feedback_assistant_that_apple_should_add/",
+              "parent_whitelist_status": null,
+              "stickied": false,
+              "url": "https://developer.apple.com/tutorials/swiftui/creating-a-macos-app",
+              "subreddit_subscribers": 2623,
+              "created_utc": 1580771243.0,
+              "num_crossposts": 2,
+              "media": null,
+              "is_video": false
+            }
+          ],
+          "created": 1580800086.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "developer.apple.com",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": false,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "eyfwst",
+          "is_robot_indexable": true,
+          "stickied": false,
+          "author": "Austin_Aaron_Conlon",
+          "discussion_type": null,
+          "num_comments": 6,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "crosspost_parent": "t3_eyfwfa",
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/eyfwst/wrote_in_feedback_assistant_that_apple_should_add/",
+          "parent_whitelist_status": "all_ads",
+          "report_reasons": null,
+          "url": "https://developer.apple.com/tutorials/swiftui/creating-a-macos-app",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580771286.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "Can anybody point me in the direction of an example project that uses `RxCollectionViewSectionedDataSource` that utilizes **reordering**?",
+          "author_fullname": "t2_rzhh0",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "RxDataSources",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_eyxv90",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 0,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 0,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580882091.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Can anybody point me in the direction of an example project that uses &lt;code&gt;RxCollectionViewSectionedDataSource&lt;/code&gt; that utilizes &lt;strong&gt;reordering&lt;/strong&gt;?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "eyxv90",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "thec0deman",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/eyxv90/rxdatasources/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/eyxv90/rxdatasources/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580853291.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "Hello all, I am new to app development and I was wondering if it is possible to read in information from a bluetooth arduino? If so, how would you proceed about doing so?",
+          "author_fullname": "t2_wpxwc",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "CoreBluetooth help needed",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": null,
+          "downs": 0,
+          "thumbnail_height": null,
+          "hide_score": false,
+          "name": "t3_eyxijt",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 1,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": null,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": null,
+          "can_mod_post": false,
+          "score": 1,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "self",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": true,
+          "mod_note": null,
+          "created": 1580880766.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.swift",
+          "allow_live_comments": false,
+          "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hello all, I am new to app development and I was wondering if it is possible to read in information from a bluetooth arduino? If so, how would you proceed about doing so?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "eyxijt",
+          "is_robot_indexable": true,
+          "report_reasons": null,
+          "author": "Kingchavez152",
+          "discussion_type": null,
+          "num_comments": 2,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/eyxijt/corebluetooth_help_needed/",
+          "parent_whitelist_status": "all_ads",
+          "stickied": false,
+          "url": "https://www.reddit.com/r/swift/comments/eyxijt/corebluetooth_help_needed/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580851966.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "swift",
+          "selftext": "",
+          "author_fullname": "t2_1tmniex6",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Please help! I\u2019d very much appreciate it!",
+          "link_flair_richtext": [
+
+          ],
+          "subreddit_name_prefixed": "r/swift",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "help",
+          "downs": 0,
+          "thumbnail_height": 53,
+          "hide_score": false,
+          "name": "t3_eywn7n",
+          "quarantine": false,
+          "link_flair_text_color": "dark",
+          "author_flair_background_color": null,
+          "subreddit_type": "public",
+          "ups": 0,
+          "total_awards_received": 0,
+          "media_embed": {
+
+          },
+          "thumbnail_width": 140,
+          "author_flair_template_id": null,
+          "is_original_content": false,
+          "user_reports": [
+
+          ],
+          "secure_media": null,
+          "is_reddit_media_domain": false,
+          "is_meta": false,
+          "category": null,
+          "secure_media_embed": {
+
+          },
+          "link_flair_text": "Help!",
+          "can_mod_post": false,
+          "score": 0,
+          "approved_by": null,
+          "author_premium": false,
+          "thumbnail": "https://b.thumbs.redditmedia.com/9lkMIdmQEQ-zHeHzN1JR0eqyi2OkWlCq5FK3XWpJouo.jpg",
+          "edited": false,
+          "author_flair_css_class": null,
+          "author_flair_richtext": [
+
+          ],
+          "gildings": {
+
+          },
+          "content_categories": null,
+          "is_self": false,
+          "mod_note": null,
+          "crosspost_parent_list": [
+            {
+              "approved_at_utc": null,
+              "subreddit": "iOSProgramming",
+              "selftext": "All of the emojis in my attributed string are being lit up and I only want the first emoji to light up at the beginning of the game. This will tell the user that the current emoji he needs to type is the one that is lit up. I believe the issue resides in the range section of the add attribute function in the last line of code. Also, I have a null value at the beginning of my emoji string because for some reason emoji's don't like appearing in the output when their index is 0. I tried: NSRange(location: 1, length: 2) and it worked for the most part but on rare test cases, it would light up two emojis at the same time (I'm assuming because of the size of an emoji can vary). I would appreciate any help I can get, thank you so much! Also, I'm building an emoji typing test game in case you were curious lol\n\nhttps://preview.redd.it/cd24s6q3vye41.png?width=1589&amp;format=png&amp;auto=webp&amp;s=a47d662fa884ed8bd865c31df3ffe2dcd320e935",
+              "author_fullname": "t2_1tmniex6",
+              "saved": false,
+              "mod_reason_title": null,
+              "gilded": 0,
+              "clicked": false,
+              "title": "All of the emojis in my attributed string are being lit up, I only want one of them to light up",
+              "link_flair_richtext": [
+                {
+                  "e": "text",
+                  "t": "Question"
+                }
+              ],
+              "subreddit_name_prefixed": "r/iOSProgramming",
+              "hidden": false,
+              "pwls": 6,
+              "link_flair_css_class": "question",
+              "downs": 0,
+              "thumbnail_height": 53,
+              "hide_score": false,
+              "media_metadata": {
+                "cd24s6q3vye41": {
+                  "status": "valid",
+                  "e": "Image",
+                  "m": "image/png",
+                  "p": [
+                    {
+                      "y": 40,
+                      "x": 108,
+                      "u": "https://external-preview.redd.it/cd24s6q3vye41.png?width=108&amp;crop=smart&amp;auto=webp&amp;s=7ad14690ab825fa0fec79b8f3e710a735cb69f31"
+                    },
+                    {
+                      "y": 81,
+                      "x": 216,
+                      "u": "https://external-preview.redd.it/cd24s6q3vye41.png?width=216&amp;crop=smart&amp;auto=webp&amp;s=04d01dff880457b8336af682e16b254ba322350e"
+                    },
+                    {
+                      "y": 121,
+                      "x": 320,
+                      "u": "https://external-preview.redd.it/cd24s6q3vye41.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=87c6ec305c8e291ea90313ad52e33b6c1c427316"
+                    },
+                    {
+                      "y": 242,
+                      "x": 640,
+                      "u": "https://external-preview.redd.it/cd24s6q3vye41.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=95adeb7ada59eaee84bd6da659bd87cadaf81221"
+                    },
+                    {
+                      "y": 364,
+                      "x": 960,
+                      "u": "https://external-preview.redd.it/cd24s6q3vye41.png?width=960&amp;crop=smart&amp;auto=webp&amp;s=56f8eeb146750955a62ea737116dd62d1bd05d33"
+                    },
+                    {
+                      "y": 409,
+                      "x": 1080,
+                      "u": "https://external-preview.redd.it/cd24s6q3vye41.png?width=1080&amp;crop=smart&amp;auto=webp&amp;s=da32c1ed7142a10412b5987a3d79d9b70f04e949"
+                    }
+                  ],
+                  "s": {
+                    "y": 603,
+                    "x": 1589,
+                    "u": "https://preview.redd.it/cd24s6q3vye41.png?width=1589&amp;format=png&amp;auto=webp&amp;s=a47d662fa884ed8bd865c31df3ffe2dcd320e935"
+                  },
+                  "id": "cd24s6q3vye41"
+                }
+              },
+              "name": "t3_eywm6c",
+              "quarantine": false,
+              "link_flair_text_color": "dark",
+              "author_flair_background_color": null,
+              "subreddit_type": "public",
+              "ups": 3,
+              "total_awards_received": 0,
+              "media_embed": {
+
+              },
+              "thumbnail_width": 140,
+              "author_flair_template_id": null,
+              "is_original_content": false,
+              "user_reports": [
+
+              ],
+              "secure_media": null,
+              "is_reddit_media_domain": false,
+              "is_meta": false,
+              "category": null,
+              "secure_media_embed": {
+
+              },
+              "link_flair_text": "Question",
+              "can_mod_post": false,
+              "score": 3,
+              "approved_by": null,
+              "author_premium": false,
+              "thumbnail": "https://b.thumbs.redditmedia.com/9lkMIdmQEQ-zHeHzN1JR0eqyi2OkWlCq5FK3XWpJouo.jpg",
+              "edited": false,
+              "author_flair_css_class": null,
+              "author_flair_richtext": [
+
+              ],
+              "gildings": {
+
+              },
+              "content_categories": null,
+              "is_self": true,
+              "mod_note": null,
+              "created": 1580877431.0,
+              "link_flair_type": "richtext",
+              "wls": 6,
+              "removed_by_category": null,
+              "banned_by": null,
+              "author_flair_type": "text",
+              "domain": "self.iOSProgramming",
+              "allow_live_comments": false,
+              "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;All of the emojis in my attributed string are being lit up and I only want the first emoji to light up at the beginning of the game. This will tell the user that the current emoji he needs to type is the one that is lit up. I believe the issue resides in the range section of the add attribute function in the last line of code. Also, I have a null value at the beginning of my emoji string because for some reason emoji&amp;#39;s don&amp;#39;t like appearing in the output when their index is 0. I tried: NSRange(location: 1, length: 2) and it worked for the most part but on rare test cases, it would light up two emojis at the same time (I&amp;#39;m assuming because of the size of an emoji can vary). I would appreciate any help I can get, thank you so much! Also, I&amp;#39;m building an emoji typing test game in case you were curious lol&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://preview.redd.it/cd24s6q3vye41.png?width=1589&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=a47d662fa884ed8bd865c31df3ffe2dcd320e935\"&gt;https://preview.redd.it/cd24s6q3vye41.png?width=1589&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=a47d662fa884ed8bd865c31df3ffe2dcd320e935&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+              "likes": null,
+              "suggested_sort": "top",
+              "banned_at_utc": null,
+              "view_count": null,
+              "archived": false,
+              "no_follow": true,
+              "is_crosspostable": false,
+              "pinned": false,
+              "over_18": false,
+              "all_awardings": [
+
+              ],
+              "awarders": [
+
+              ],
+              "media_only": false,
+              "link_flair_template_id": "78d37d26-49a3-11e5-a2c1-0e3f27028b2f",
+              "can_gild": false,
+              "spoiler": false,
+              "locked": false,
+              "author_flair_text": null,
+              "visited": false,
+              "removed_by": null,
+              "num_reports": null,
+              "distinguished": null,
+              "subreddit_id": "t5_2s61a",
+              "mod_reason_by": null,
+              "removal_reason": null,
+              "link_flair_background_color": "",
+              "id": "eywm6c",
+              "is_robot_indexable": true,
+              "report_reasons": null,
+              "author": "thatrandomkid2",
+              "discussion_type": null,
+              "num_comments": 2,
+              "send_replies": true,
+              "whitelist_status": "all_ads",
+              "contest_mode": false,
+              "mod_reports": [
+
+              ],
+              "author_patreon_flair": false,
+              "author_flair_text_color": null,
+              "permalink": "/r/iOSProgramming/comments/eywm6c/all_of_the_emojis_in_my_attributed_string_are/",
+              "parent_whitelist_status": "all_ads",
+              "stickied": false,
+              "url": "https://www.reddit.com/r/iOSProgramming/comments/eywm6c/all_of_the_emojis_in_my_attributed_string_are/",
+              "subreddit_subscribers": 67381,
+              "created_utc": 1580848631.0,
+              "num_crossposts": 1,
+              "media": null,
+              "is_video": false
+            }
+          ],
+          "created": 1580877541.0,
+          "link_flair_type": "text",
+          "wls": 6,
+          "removed_by_category": null,
+          "banned_by": null,
+          "author_flair_type": "text",
+          "domain": "self.iOSProgramming",
+          "allow_live_comments": false,
+          "selftext_html": null,
+          "likes": null,
+          "suggested_sort": null,
+          "banned_at_utc": null,
+          "view_count": null,
+          "archived": false,
+          "no_follow": true,
+          "is_crosspostable": false,
+          "pinned": false,
+          "over_18": false,
+          "all_awardings": [
+
+          ],
+          "awarders": [
+
+          ],
+          "media_only": false,
+          "link_flair_template_id": "d1ac5848-3912-11e4-ad30-12313d1496d4",
+          "can_gild": false,
+          "spoiler": false,
+          "locked": false,
+          "author_flair_text": null,
+          "visited": false,
+          "removed_by": null,
+          "num_reports": null,
+          "distinguished": null,
+          "subreddit_id": "t5_2z6zi",
+          "mod_reason_by": null,
+          "removal_reason": null,
+          "link_flair_background_color": "",
+          "id": "eywn7n",
+          "is_robot_indexable": true,
+          "stickied": false,
+          "author": "thatrandomkid2",
+          "discussion_type": null,
+          "num_comments": 0,
+          "send_replies": true,
+          "whitelist_status": "all_ads",
+          "contest_mode": false,
+          "mod_reports": [
+
+          ],
+          "author_patreon_flair": false,
+          "crosspost_parent": "t3_eywm6c",
+          "author_flair_text_color": null,
+          "permalink": "/r/swift/comments/eywn7n/please_help_id_very_much_appreciate_it/",
+          "parent_whitelist_status": "all_ads",
+          "report_reasons": null,
+          "url": "/r/iOSProgramming/comments/eywm6c/all_of_the_emojis_in_my_attributed_string_are/",
+          "subreddit_subscribers": 56761,
+          "created_utc": 1580848741.0,
+          "num_crossposts": 0,
+          "media": null,
+          "is_video": false
+        }
+      }
+    ],
+    "after": "t3_eywn7n",
+    "before": null
+  }
+}

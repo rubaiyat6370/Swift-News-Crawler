@@ -40,7 +40,7 @@ class TableViewCell: UITableViewCell {
         else {
             if news.thumbnailHeight != nil || news.thumbnailWidth != nil {
                 setupThumbnail(image: UIImage(named: "imageIcon")!, height: 80.0, width: 80.0)
-                Network.downloadFileFrom(url: news.thumbnailURL!) { (data) in
+                DataFetcher.shared.loadDataFrom(urlString: news.thumbnailURL!) { (data, _) in
                     if data != nil {
                         DispatchQueue.main.async {
                             self.thumbnail.image = UIImage(data: data!)
@@ -54,11 +54,5 @@ class TableViewCell: UITableViewCell {
             }
         }
     }
-
-//    override func setSelected(_ selected: Bool, animated: Bool) {
-//        super.setSelected(selected, animated: animated)
-//
-//        // Configure the view for the selected state
-//    }
     
 }

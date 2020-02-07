@@ -14,10 +14,14 @@ class MainViewController: UIViewController {
     private let urlString = "https://www.reddit.com/r/swift/.json"
 
     var swiftPosts = [ChildPost]()
+    var provider: DataProviderService!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Swift News"
+
+        provider = DataProviderService(fetcher: DataFetcher.shared)
+
         self.tableView.delegate = self
         self.tableView.dataSource = self
 
@@ -29,14 +33,15 @@ class MainViewController: UIViewController {
     }
 
     func requestForNews() {
-        Network.loadJSONData(urlString: urlString, type: JSONData.self) { (data, error) in
-            if let jsonData = data {
+        provider.decodeDataFrom(urlString: urlString, type: JSONData.self) { (data, error) in
+            if let redditData = data {
                 DispatchQueue.main.async {
-                    self.swiftPosts = jsonData.data.children
+                    self.swiftPosts = redditData.data.children
                     self.tableView.reloadData()
                 }
             }
         }
+
     }
 }
 

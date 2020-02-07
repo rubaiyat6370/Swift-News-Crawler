@@ -42,7 +42,7 @@ class SwiftNews: Decodable {
             self.thumbnail = nil
         } else {
             guard let url = thumbnailURL else { return }
-            Network.downloadFileFrom(url: url) { [weak self](imageData) in
+            DataFetcher.shared.loadDataFrom(urlString: url) { [weak self](imageData, _) in
                 guard let data = imageData else {
                     self?.thumbnail = nil
                     return
