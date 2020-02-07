@@ -27,7 +27,8 @@ class MainViewController: UIViewController {
             return 21
         }
     }()
-    var swiftPosts = [ChildPost]()
+    var activityView: UIActivityIndicatorView?
+    var posts = [SwiftNews]()
     var provider: DataProviderService!
     
     override func viewDidLoad() {
@@ -53,8 +54,14 @@ class MainViewController: UIViewController {
     func requestForNews() {
         provider.decodeDataFrom(urlString: urlString, type: JSONData.self) { (data, error) in
             if let redditData = data {
+                let swiftPosts = redditData.data.children
+                self.posts = swiftPosts.map({ (child) -> SwiftNews in
+                    child.data
+                })
+                self.posts.sort { (lhs, rhs) -> Bool in
+                    lhs.upVote > rhs.upVote
+                }
                 DispatchQueue.main.async {
-                    self.swiftPosts = redditData.data.children
                     self.tableView.reloadData()
                 }
             }
@@ -69,20 +76,20 @@ class MainViewController: UIViewController {
 
 extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("Count: \(swiftPosts.count)")
-        return swiftPosts.count
+        print("Count: \(posts.count)")
+        return posts.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell") as? TableViewCell
-        let news = swiftPosts[indexPath.row].data
+        let news = posts[indexPath.row]
         cell?.setupCell(news: news)
         return cell!
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let detailAVC = DetailArticleViewController(nibName: "DetailArticleViewController", bundle: nil)
-        let article = swiftPosts[indexPath.row].data
+        let article = posts[indexPath.row]
         detailAVC.article = article
         self.navigationController?.pushViewController(detailAVC, animated: true)
     }

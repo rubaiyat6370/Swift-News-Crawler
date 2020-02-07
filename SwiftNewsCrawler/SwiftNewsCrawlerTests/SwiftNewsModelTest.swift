@@ -12,7 +12,7 @@ import XCTest
 @testable import SwiftNewsCrawler
 
 class SwiftNewsModelTest: XCTestCase {
-    let jsonString = """
+    let swiftNewsJson = """
         {
           "selftext": "What Swift-related projects are you currently working on?",
           "title": "What\\u2019s everyone working on this month? (February 2020)",
@@ -27,7 +27,7 @@ class SwiftNewsModelTest: XCTestCase {
     func testSwiftNewsModel() {
         let decoder = JSONDecoder()
         do {
-            let swiftNews = try decoder.decode(SwiftNews.self, from: Data(jsonString.utf8))
+            let swiftNews = try decoder.decode(SwiftNews.self, from: Data(swiftNewsJson.utf8))
             XCTAssertNotNil(swiftNews)
 
             XCTAssertEqual(swiftNews.title, "What’s everyone working on this month? (February 2020)")

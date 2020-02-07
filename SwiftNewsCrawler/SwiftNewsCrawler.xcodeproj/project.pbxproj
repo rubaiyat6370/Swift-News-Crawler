@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BFCB222523EB369D002A2E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB222423EB369D002A2E61 /* AppDelegate.swift */; };
-		BFCB222923EB369D002A2E61 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB222823EB369D002A2E61 /* MainViewController.swift */; };
-		BFCB222C23EB369D002A2E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB222A23EB369D002A2E61 /* Main.storyboard */; };
 		BFCB222E23EB36A1002A2E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCB222D23EB36A1002A2E61 /* Assets.xcassets */; };
 		BFCB223123EB36A1002A2E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB222F23EB36A1002A2E61 /* LaunchScreen.storyboard */; };
 		BFCB223C23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB223B23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift */; };
@@ -20,7 +18,6 @@
 		BFCB225E23EC7A34002A2E61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB225D23EC7A34002A2E61 /* Constants.swift */; };
 		BFCB226C23EC9CCC002A2E61 /* DetailArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCB226A23EC9CCC002A2E61 /* DetailArticleViewController.xib */; };
 		BFCB226D23EC9CCC002A2E61 /* DetailArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB226B23EC9CCC002A2E61 /* DetailArticleViewController.swift */; };
-		BFCB226F23ECB276002A2E61 /* NetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB226E23ECB276002A2E61 /* NetworkTest.swift */; };
 		BFCB227123ECC34C002A2E61 /* SwiftNewsModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB227023ECC34C002A2E61 /* SwiftNewsModelTest.swift */; };
 		BFCB227323ECF798002A2E61 /* MockDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB227223ECF798002A2E61 /* MockDataFetcher.swift */; };
 		BFCB227523ECFEC8002A2E61 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB227423ECFEC8002A2E61 /* RequestError.swift */; };
@@ -29,6 +26,8 @@
 		BFCB227E23ED278F002A2E61 /* DataProviderServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB227D23ED278E002A2E61 /* DataProviderServiceTest.swift */; };
 		BFCB229723EDA64F002A2E61 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = BFCB229623EDA64F002A2E61 /* Resources */; };
 		BFCB229C23EDC13A002A2E61 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB229B23EDC139002A2E61 /* AppUtils.swift */; };
+		BFCB229E23EE0F6C002A2E61 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB229D23EE0F6C002A2E61 /* MainViewController.swift */; };
+		BFCB22A123EE0FEB002A2E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB229F23EE0FEB002A2E61 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +43,6 @@
 /* Begin PBXFileReference section */
 		BFCB222123EB369D002A2E61 /* SwiftNewsCrawler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNewsCrawler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCB222423EB369D002A2E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFCB222823EB369D002A2E61 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		BFCB222B23EB369D002A2E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFCB222D23EB36A1002A2E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFCB223023EB36A1002A2E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFCB223223EB36A1002A2E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +56,6 @@
 		BFCB225D23EC7A34002A2E61 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BFCB226A23EC9CCC002A2E61 /* DetailArticleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailArticleViewController.xib; sourceTree = "<group>"; };
 		BFCB226B23EC9CCC002A2E61 /* DetailArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailArticleViewController.swift; sourceTree = "<group>"; };
-		BFCB226E23ECB276002A2E61 /* NetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTest.swift; sourceTree = "<group>"; };
 		BFCB227023ECC34C002A2E61 /* SwiftNewsModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNewsModelTest.swift; sourceTree = "<group>"; };
 		BFCB227223ECF798002A2E61 /* MockDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataFetcher.swift; sourceTree = "<group>"; };
 		BFCB227423ECFEC8002A2E61 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
@@ -68,6 +64,8 @@
 		BFCB227D23ED278E002A2E61 /* DataProviderServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderServiceTest.swift; sourceTree = "<group>"; };
 		BFCB229623EDA64F002A2E61 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		BFCB229B23EDC139002A2E61 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		BFCB229D23EE0F6C002A2E61 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BFCB22A023EE0FEB002A2E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 				BFCB224723EB4620002A2E61 /* Views */,
 				BFCB224623EB460E002A2E61 /* Models */,
 				BFCB222423EB369D002A2E61 /* AppDelegate.swift */,
-				BFCB222A23EB369D002A2E61 /* Main.storyboard */,
 				BFCB222D23EB36A1002A2E61 /* Assets.xcassets */,
 				BFCB222F23EB36A1002A2E61 /* LaunchScreen.storyboard */,
 				BFCB223223EB36A1002A2E61 /* Info.plist */,
@@ -128,7 +125,6 @@
 				BFCB229623EDA64F002A2E61 /* Resources */,
 				BFCB223B23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift */,
 				BFCB223D23EB36A1002A2E61 /* Info.plist */,
-				BFCB226E23ECB276002A2E61 /* NetworkTest.swift */,
 				BFCB227023ECC34C002A2E61 /* SwiftNewsModelTest.swift */,
 				BFCB227223ECF798002A2E61 /* MockDataFetcher.swift */,
 				BFCB227D23ED278E002A2E61 /* DataProviderServiceTest.swift */,
@@ -161,9 +157,10 @@
 		BFCB224823EB462A002A2E61 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BFCB229F23EE0FEB002A2E61 /* Main.storyboard */,
+				BFCB229D23EE0F6C002A2E61 /* MainViewController.swift */,
 				BFCB226B23EC9CCC002A2E61 /* DetailArticleViewController.swift */,
 				BFCB226A23EC9CCC002A2E61 /* DetailArticleViewController.xib */,
-				BFCB222823EB369D002A2E61 /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -258,10 +255,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCB223123EB36A1002A2E61 /* LaunchScreen.storyboard in Resources */,
+				BFCB22A123EE0FEB002A2E61 /* Main.storyboard in Resources */,
 				BFCB226C23EC9CCC002A2E61 /* DetailArticleViewController.xib in Resources */,
 				BFCB224E23EB4C75002A2E61 /* TableViewCell.xib in Resources */,
 				BFCB222E23EB36A1002A2E61 /* Assets.xcassets in Resources */,
-				BFCB222C23EB369D002A2E61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCB227523ECFEC8002A2E61 /* RequestError.swift in Sources */,
+				BFCB229E23EE0F6C002A2E61 /* MainViewController.swift in Sources */,
 				BFCB227A23ED0B74002A2E61 /* DataProviderService.swift in Sources */,
 				BFCB225223EB87B3002A2E61 /* DataFetcher.swift in Sources */,
 				BFCB229C23EDC13A002A2E61 /* AppUtils.swift in Sources */,
@@ -288,7 +286,6 @@
 				BFCB224D23EB4C75002A2E61 /* TableViewCell.swift in Sources */,
 				BFCB226D23EC9CCC002A2E61 /* DetailArticleViewController.swift in Sources */,
 				BFCB225E23EC7A34002A2E61 /* Constants.swift in Sources */,
-				BFCB222923EB369D002A2E61 /* MainViewController.swift in Sources */,
 				BFCB227C23ED11C3002A2E61 /* DataFetchProtocol.swift in Sources */,
 				BFCB222523EB369D002A2E61 /* AppDelegate.swift in Sources */,
 			);
@@ -301,7 +298,6 @@
 				BFCB227E23ED278F002A2E61 /* DataProviderServiceTest.swift in Sources */,
 				BFCB227123ECC34C002A2E61 /* SwiftNewsModelTest.swift in Sources */,
 				BFCB227323ECF798002A2E61 /* MockDataFetcher.swift in Sources */,
-				BFCB226F23ECB276002A2E61 /* NetworkTest.swift in Sources */,
 				BFCB223C23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,20 +313,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BFCB222A23EB369D002A2E61 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFCB222B23EB369D002A2E61 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BFCB222F23EB36A1002A2E61 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BFCB223023EB36A1002A2E61 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BFCB229F23EE0FEB002A2E61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFCB22A023EE0FEB002A2E61 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

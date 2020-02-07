@@ -10,10 +10,10 @@ import Foundation
 import UIKit
 
 class SwiftNews: Decodable {
-
     let title: String
     let description: String
     let url: String
+    let upVote: Int
     let thumbnailURL: String?
     let thumbnailHeight: CGFloat?
     let thumbnailWidth: CGFloat?
@@ -26,15 +26,18 @@ class SwiftNews: Decodable {
         case thumbnailURL = "thumbnail"
         case thumbnailHeight = "thumbnail_height"
         case thumbnailWidth = "thumbnail_width"
+        case upVote = "ups"
     }
 
     required init(from decoder: Decoder) throws {
 
         let container = try decoder.container(keyedBy: CodingKeys.self)
 
+        upVote = try container.decodeIfPresent(Int.self, forKey: .upVote) ?? 0
         title = try container.decodeIfPresent(String.self, forKey: .title) ?? ""
         description = try container.decodeIfPresent(String.self, forKey: .description) ?? ""
         url = try container.decodeIfPresent(String.self, forKey: .url) ?? ""
+
         thumbnailURL = try container.decodeIfPresent(String.self, forKey: .thumbnailURL)
         thumbnailWidth = try container.decodeIfPresent(CGFloat.self, forKey: .thumbnailWidth)
         thumbnailHeight = try container.decodeIfPresent(CGFloat.self, forKey: .thumbnailHeight)

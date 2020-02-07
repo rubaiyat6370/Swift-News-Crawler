@@ -4,8 +4,22 @@
 <dict>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<false/>
+		<key>NSExceptionDomains</key>
+        <dict>
+            <key>reddit.com</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+                <key>NSExceptionRequiresForwardSecrecy</key>
+                <true/>
+                <key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                <true/>
+            </dict>
+        </dict>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
