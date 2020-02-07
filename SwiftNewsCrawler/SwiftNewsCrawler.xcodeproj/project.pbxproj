@@ -28,6 +28,7 @@
 		BFCB227C23ED11C3002A2E61 /* DataFetchProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB227B23ED11C3002A2E61 /* DataFetchProtocol.swift */; };
 		BFCB227E23ED278F002A2E61 /* DataProviderServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB227D23ED278E002A2E61 /* DataProviderServiceTest.swift */; };
 		BFCB229723EDA64F002A2E61 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = BFCB229623EDA64F002A2E61 /* Resources */; };
+		BFCB229C23EDC13A002A2E61 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB229B23EDC139002A2E61 /* AppUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		BFCB227B23ED11C3002A2E61 /* DataFetchProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetchProtocol.swift; sourceTree = "<group>"; };
 		BFCB227D23ED278E002A2E61 /* DataProviderServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderServiceTest.swift; sourceTree = "<group>"; };
 		BFCB229623EDA64F002A2E61 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		BFCB229B23EDC139002A2E61 /* AppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		BFCB222323EB369D002A2E61 /* SwiftNewsCrawler */ = {
 			isa = PBXGroup;
 			children = (
+				BFCB229A23EDC126002A2E61 /* Utils */,
 				BFCB224823EB462A002A2E61 /* Controllers */,
 				BFCB224723EB4620002A2E61 /* Views */,
 				BFCB224623EB460E002A2E61 /* Models */,
@@ -163,6 +166,14 @@
 				BFCB222823EB369D002A2E61 /* MainViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFCB229A23EDC126002A2E61 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB229B23EDC139002A2E61 /* AppUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 				BFCB227523ECFEC8002A2E61 /* RequestError.swift in Sources */,
 				BFCB227A23ED0B74002A2E61 /* DataProviderService.swift in Sources */,
 				BFCB225223EB87B3002A2E61 /* DataFetcher.swift in Sources */,
+				BFCB229C23EDC13A002A2E61 /* AppUtils.swift in Sources */,
 				BFCB225023EB61DD002A2E61 /* SwiftNews.swift in Sources */,
 				BFCB224D23EB4C75002A2E61 /* TableViewCell.swift in Sources */,
 				BFCB226D23EC9CCC002A2E61 /* DetailArticleViewController.swift in Sources */,

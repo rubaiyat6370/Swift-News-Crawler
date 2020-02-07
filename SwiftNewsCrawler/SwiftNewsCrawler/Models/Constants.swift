@@ -10,14 +10,25 @@ import Foundation
 import UIKit
 
 class Constants {
-    static let idealHeight: CGFloat = 667.0
-    static let idealWidth: CGFloat = 375.0
+    static let idealHeightIphone: CGFloat = 667.0
+    static let idealWidthIphone: CGFloat = 375.0
+    static let idealHeightIpad: CGFloat = 1194.0
+    static let idealWidthIpad: CGFloat = 834.0
+
     static let heightConstant: CGFloat = {
-        UIScreen.main.bounds.height / Constants.idealHeight
+        if AppUtils.deviceType == "iPhone" {
+            return AppUtils.deviceHeight / Constants.idealHeightIphone
+        } else {
+            return AppUtils.deviceHeight / Constants.idealHeightIpad
+        }
     }()
 
     static let widthConstant: CGFloat = {
-        UIScreen.main.bounds.width / Constants.idealWidth
+        if AppUtils.deviceType == "iPhone" {
+            return AppUtils.deviceWidth / Constants.idealWidthIphone
+        } else {
+            return AppUtils.deviceWidth / Constants.idealWidthIpad
+        }
     }()
 }
 

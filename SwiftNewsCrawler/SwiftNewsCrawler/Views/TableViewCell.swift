@@ -10,47 +10,109 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    //
+    // MARK: - IBOutlets
+    //
     @IBOutlet weak var thumbnail: UIImageView!
     @IBOutlet weak var headlineLabel: UILabel!
-    @IBOutlet weak var thumbnailHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var thumbnailHeightConstraint: WidthConstraint!
     
-    @IBOutlet weak var thumbnailWidthConstraint: NSLayoutConstraint!
-    @IBOutlet weak var thumbnailBottomConstraint: NSLayoutConstraint!
-
-    let thumbnailHeightConstant: CGFloat = 80.0
-    let thumbnailBottomConstant: CGFloat = 10.0
-    let headlineFontSize: CGFloat = 16.0
-
+    @IBOutlet weak var headlineLeadingConstraint: WidthConstraint!
+    @IBOutlet weak var headlineTopConstraint: HeightConstraint!
+    
+    @IBOutlet weak var headlineTrailingConstraint: WidthConstraint!
+    @IBOutlet weak var thumbnailWidthConstraint: WidthConstraint!
+    @IBOutlet weak var thumbnailBottomConstraint: HeightConstraint!
     @IBOutlet weak var thumbnailTopConstraint: HeightConstraint!
+    //
+    // MARK: - Constants & Variables
+    //
+    let thumbnailHeightConstant: CGFloat = {
+        if AppUtils.deviceType == "iPhone" {
+            return 83.0
+        } else {
+            return 120
+        }
+    }()
+
+    let topBottomConstant: CGFloat = {
+        if AppUtils.deviceType == "iPhone" {
+            return 7.0
+        } else {
+            return 12.0
+        }
+    }()
+
+    let leadingTrailingConstant: CGFloat = {
+        if AppUtils.deviceType == "iPhone" {
+            return 15
+        } else {
+            return 22
+        }
+    }()
+
+    let headlineFontSize: CGFloat = {
+        if AppUtils.deviceType == "iPhone" {
+            return 13.0
+        } else {
+            return 20.0
+        }
+    }()
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        self.layer.borderColor = UIColor.black.cgColor
+        self.layer.borderWidth = 0.1
+        self.layer.cornerRadius = 10.0 * Constants.widthConstant
+    }
     
     fileprivate func setupThumbnail(image: UIImage, height: CGFloat, width: CGFloat) {
         thumbnailHeightConstraint.constant = thumbnailHeightConstant
         let widthRatio: CGFloat = thumbnailHeightConstant/height
         thumbnailWidthConstraint.constant = width * widthRatio
-        thumbnailBottomConstraint.constant = thumbnailBottomConstant
+        thumbnailBottomConstraint.constant = topBottomConstant
         self.thumbnail.image = image
     }
 
+    fileprivate func removeThumbnail() {
+        self.thumbnailBottomConstraint.constant = 0
+        self.thumbnailHeightConstraint.constant = 0
+    }
+
+    fileprivate func setupConstraints() {
+        self.headlineLabel.font = UIFont.systemFont(ofSize: headlineFontSize * Constants.widthConstant)
+        self.headlineLeadingConstraint.constant = leadingTrailingConstant
+        self.headlineTrailingConstraint.constant = leadingTrailingConstant
+        self.thumbnailTopConstraint.constant = topBottomConstant
+        self.headlineTopConstraint.constant = topBottomConstant
+        self.thumbnailBottomConstraint.constant = topBottomConstant
+    }
+
+    fileprivate func downloadImage(_ news: SwiftNews) {
+        DataFetcher.shared.loadDataFrom(urlString: news.thumbnailURL!) { (data, _) in
+            if data != nil {
+                DispatchQueue.main.async {
+                    if let image = UIImage(data: data!) {
+                        self.setupThumbnail(image: image, height: news.thumbnailHeight!, width: news.thumbnailWidth!)
+                    }
+
+                }
+            }
+        }
+    }
+
     func setupCell(news: SwiftNews) {
+        setupConstraints()
         self.headlineLabel.text = news.title
-        //self.headlineLabel.font = UIFont.systemFont(ofSize: headlineFontSize * Constants.widthConstant)
         if news.thumbnail != nil {
             setupThumbnail(image: news.thumbnail!, height: news.thumbnailHeight!, width: news.thumbnailWidth!)
         }
         else {
-            if news.thumbnailHeight != nil || news.thumbnailWidth != nil {
-                setupThumbnail(image: UIImage(named: "imageIcon")!, height: 80.0, width: 80.0)
-                DataFetcher.shared.loadDataFrom(urlString: news.thumbnailURL!) { (data, _) in
-                    if data != nil {
-                        DispatchQueue.main.async {
-                            self.thumbnail.image = UIImage(data: data!)
-                        }
-                    }
-                }
+            if news.thumbnailHeight != nil && news.thumbnailWidth != nil {
+                setupThumbnail(image: UIImage(named: "imageIcon")!, height: thumbnailHeightConstant, width: thumbnailHeightConstant)
+                downloadImage(news)
             } else {
-                self.thumbnailBottomConstraint.constant = 0
-                self.thumbnailHeightConstraint.constant = 0
-                //self.thumbnailTopConstraint.constant = 0
+                removeThumbnail()
             }
         }
     }

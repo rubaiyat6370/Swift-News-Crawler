@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +19,7 @@
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sU7-6V-axi">
                         <rect key="frame" x="20" y="10" width="280" height="16"/>
-                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -26,11 +27,12 @@
                         <rect key="frame" x="20" y="36" width="80" height="80"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="80" id="9KF-7B-J9p" customClass="WidthConstraint" customModule="SwiftNewsCrawler" customModuleProvider="target"/>
-                            <constraint firstAttribute="height" priority="999" constant="80" id="LUS-UE-TE0" customClass="HeightConstraint" customModule="SwiftNewsCrawler" customModuleProvider="target"/>
+                            <constraint firstAttribute="height" priority="999" constant="80" id="LUS-UE-TE0" customClass="WidthConstraint" customModule="SwiftNewsCrawler" customModuleProvider="target"/>
                         </constraints>
                         <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
                     </imageView>
                 </subviews>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                 <constraints>
                     <constraint firstItem="hbx-CH-RMk" firstAttribute="leading" secondItem="sU7-6V-axi" secondAttribute="leading" id="Kzi-K4-fqr"/>
                     <constraint firstItem="sU7-6V-axi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Lja-Ly-obG" customClass="WidthConstraint" customModule="SwiftNewsCrawler" customModuleProvider="target"/>
@@ -43,11 +45,14 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="headlineLabel" destination="sU7-6V-axi" id="Mv3-Bn-lNE"/>
+                <outlet property="headlineLeadingConstraint" destination="Lja-Ly-obG" id="OxH-Cu-Run"/>
+                <outlet property="headlineTopConstraint" destination="ZkG-Y8-MRb" id="64v-mK-hih"/>
+                <outlet property="headlineTrailingConstraint" destination="irQ-8B-pfa" id="4Gn-Aw-SF6"/>
                 <outlet property="thumbnail" destination="hbx-CH-RMk" id="wwF-MW-mvX"/>
-                <outlet property="thumbnailBottomConstraint" destination="nJb-L4-sND" id="pP9-PL-r7e"/>
-                <outlet property="thumbnailHeightConstraint" destination="LUS-UE-TE0" id="a1W-G7-aYH"/>
-                <outlet property="thumbnailTopConstraint" destination="dAa-eT-OyS" id="7R0-Rk-DiL"/>
-                <outlet property="thumbnailWidthConstraint" destination="9KF-7B-J9p" id="Ceg-p3-swP"/>
+                <outlet property="thumbnailBottomConstraint" destination="nJb-L4-sND" id="Y57-1E-axV"/>
+                <outlet property="thumbnailHeightConstraint" destination="LUS-UE-TE0" id="Y1g-an-fyL"/>
+                <outlet property="thumbnailTopConstraint" destination="dAa-eT-OyS" id="fJn-cm-p1E"/>
+                <outlet property="thumbnailWidthConstraint" destination="9KF-7B-J9p" id="ZXS-BM-w7D"/>
             </connections>
             <point key="canvasLocation" x="137.68115942028987" y="99.107142857142847"/>
         </tableViewCell>

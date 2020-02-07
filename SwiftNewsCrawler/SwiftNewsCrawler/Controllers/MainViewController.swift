@@ -10,9 +10,23 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    //
+    // MARK: - IBOutlets
+    //
     @IBOutlet weak var tableView: UITableView!
-    private let urlString = "https://www.reddit.com/r/swift/.json"
 
+    //
+    // MARK: - Constants
+    //
+    private let urlString = "https://www.reddit.com/r/swift/.json"
+    private let tableViewHeightConstant: CGFloat = 200
+    private let navBarTitleFont: CGFloat = {
+        if AppUtils.deviceType == "iPhone" {
+            return 14
+        } else {
+            return 21
+        }
+    }()
     var swiftPosts = [ChildPost]()
     var provider: DataProviderService!
     
@@ -21,15 +35,19 @@ class MainViewController: UIViewController {
         self.title = "Swift News"
 
         provider = DataProviderService(fetcher: DataFetcher.shared)
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: navBarTitleFont * Constants.widthConstant)]
+        setupTableView()
+        requestForNews()
 
+    }
+
+    private func setupTableView() {
         self.tableView.delegate = self
         self.tableView.dataSource = self
 
         self.tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "customCell")
         self.tableView.rowHeight = UITableView.automaticDimension
-        self.tableView.estimatedRowHeight = 130
-        requestForNews()
-
+        self.tableView.estimatedRowHeight = tableViewHeightConstant
     }
 
     func requestForNews() {
@@ -58,9 +76,6 @@ extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customCell") as? TableViewCell
         let news = swiftPosts[indexPath.row].data
-//        if news.thumbnail != nil {
-//            print(news.thumbnail!)
-//        }
         cell?.setupCell(news: news)
         return cell!
     }

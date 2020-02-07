@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
         print(UIScreen.main.bounds)
+        print(UIDevice.current.model)
         let mainSB = UIStoryboard(name: "Main", bundle: nil)
         guard let rootVC = mainSB.instantiateInitialViewController() as? MainViewController else {
             return false
