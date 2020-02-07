@@ -107,6 +107,7 @@
 		BFCB222323EB369D002A2E61 /* SwiftNewsCrawler */ = {
 			isa = PBXGroup;
 			children = (
+				BFCB22A223EE2C3B002A2E61 /* Services */,
 				BFCB229A23EDC126002A2E61 /* Utils */,
 				BFCB224823EB462A002A2E61 /* Controllers */,
 				BFCB224723EB4620002A2E61 /* Views */,
@@ -136,11 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				BFCB224F23EB61DD002A2E61 /* SwiftNews.swift */,
-				BFCB225123EB87B3002A2E61 /* DataFetcher.swift */,
 				BFCB225D23EC7A34002A2E61 /* Constants.swift */,
 				BFCB227423ECFEC8002A2E61 /* RequestError.swift */,
-				BFCB227923ED0B74002A2E61 /* DataProviderService.swift */,
-				BFCB227B23ED11C3002A2E61 /* DataFetchProtocol.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,6 +169,16 @@
 				BFCB229B23EDC139002A2E61 /* AppUtils.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		BFCB22A223EE2C3B002A2E61 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB227923ED0B74002A2E61 /* DataProviderService.swift */,
+				BFCB225123EB87B3002A2E61 /* DataFetcher.swift */,
+				BFCB227B23ED11C3002A2E61 /* DataFetchProtocol.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

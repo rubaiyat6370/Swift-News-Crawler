@@ -48,7 +48,7 @@ class MainViewController: UIViewController {
 
         self.tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "customCell")
         self.tableView.rowHeight = UITableView.automaticDimension
-        self.tableView.estimatedRowHeight = tableViewHeightConstant
+        //self.tableView.estimatedRowHeight = tableViewHeightConstant
     }
 
     func requestForNews() {
@@ -87,13 +87,6 @@ extension MainViewController: UITableViewDataSource {
         return cell!
     }
 
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let detailAVC = DetailArticleViewController(nibName: "DetailArticleViewController", bundle: nil)
-        let article = posts[indexPath.row]
-        detailAVC.article = article
-        self.navigationController?.pushViewController(detailAVC, animated: true)
-    }
-
 }
 
 //
@@ -101,4 +94,14 @@ extension MainViewController: UITableViewDataSource {
 //
 extension MainViewController: UITableViewDelegate {
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+           let detailAVC = DetailArticleViewController(nibName: "DetailArticleViewController", bundle: nil)
+           let article = posts[indexPath.row]
+           detailAVC.article = article
+           self.navigationController?.pushViewController(detailAVC, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return self.tableViewHeightConstant
+    }
 }
