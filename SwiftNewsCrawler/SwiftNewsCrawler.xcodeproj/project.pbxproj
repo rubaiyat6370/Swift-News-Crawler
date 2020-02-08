@@ -10,7 +10,6 @@
 		BFCB222523EB369D002A2E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB222423EB369D002A2E61 /* AppDelegate.swift */; };
 		BFCB222E23EB36A1002A2E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCB222D23EB36A1002A2E61 /* Assets.xcassets */; };
 		BFCB223123EB36A1002A2E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB222F23EB36A1002A2E61 /* LaunchScreen.storyboard */; };
-		BFCB223C23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB223B23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift */; };
 		BFCB224D23EB4C75002A2E61 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB224B23EB4C75002A2E61 /* TableViewCell.swift */; };
 		BFCB224E23EB4C75002A2E61 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCB224C23EB4C75002A2E61 /* TableViewCell.xib */; };
 		BFCB225023EB61DD002A2E61 /* SwiftNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB224F23EB61DD002A2E61 /* SwiftNews.swift */; };
@@ -47,7 +46,6 @@
 		BFCB223023EB36A1002A2E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFCB223223EB36A1002A2E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCB223723EB36A1002A2E61 /* SwiftNewsCrawlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftNewsCrawlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCB223B23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNewsCrawlerTests.swift; sourceTree = "<group>"; };
 		BFCB223D23EB36A1002A2E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCB224B23EB4C75002A2E61 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		BFCB224C23EB4C75002A2E61 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				BFCB229623EDA64F002A2E61 /* Resources */,
-				BFCB223B23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift */,
 				BFCB223D23EB36A1002A2E61 /* Info.plist */,
 				BFCB227023ECC34C002A2E61 /* SwiftNewsModelTest.swift */,
 				BFCB227223ECF798002A2E61 /* MockDataFetcher.swift */,
@@ -306,7 +303,6 @@
 				BFCB227E23ED278F002A2E61 /* DataProviderServiceTest.swift in Sources */,
 				BFCB227123ECC34C002A2E61 /* SwiftNewsModelTest.swift in Sources */,
 				BFCB227323ECF798002A2E61 /* MockDataFetcher.swift in Sources */,
-				BFCB223C23EB36A1002A2E61 /* SwiftNewsCrawlerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

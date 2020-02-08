@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 class Constants {
-
     static let idealHeightIphone: CGFloat = 667.0
     static let idealWidthIphone: CGFloat = 375.0
     static let idealHeightIpad: CGFloat = 1194.0

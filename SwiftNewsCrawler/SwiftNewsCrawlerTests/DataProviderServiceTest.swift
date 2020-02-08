@@ -20,7 +20,7 @@ class DataProviderServiceTest: XCTestCase {
     
     func testDataLoader() {
         let expectation = XCTestExpectation(description: "Download JSON data form url")
-        provider.decodeDataFrom(urlString: "https://www.reddit.com/r/swift/.json", type: JSONData.self) { (data, error) in
+        provider.decodeDataFrom(urlString: "https://www.test.com", type: JSONData.self) { (data, error) in
             XCTAssertNil(error)
             XCTAssertNotNil(data)
             XCTAssertNotNil(data?.data)

@@ -63,7 +63,6 @@ class TableViewCell: UITableViewCell {
         super.awakeFromNib()
         self.layer.borderColor = UIColor.black.cgColor
         self.layer.borderWidth = 0.2
-        //self.layer.cornerRadius = 10.0 * Constants.widthConstant
     }
     
     fileprivate func setupThumbnail(image: UIImage, height: CGFloat, width: CGFloat) {

@@ -11,10 +11,8 @@ import UIKit
 
 
 class AppUtils {
-
     static let deviceType = UIDevice.current.model
     static let deviceHeight = UIScreen.main.bounds.height
     static let deviceWidth = UIScreen.main.bounds.width
-
 }
 

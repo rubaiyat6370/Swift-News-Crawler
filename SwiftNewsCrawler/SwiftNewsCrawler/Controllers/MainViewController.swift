@@ -48,7 +48,6 @@ class MainViewController: UIViewController {
 
         self.tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "customCell")
         self.tableView.rowHeight = UITableView.automaticDimension
-        //self.tableView.estimatedRowHeight = tableViewHeightConstant
     }
 
     func requestForNews() {
@@ -60,10 +59,8 @@ class MainViewController: UIViewController {
                         self.posts.sort { (lhs, rhs) -> Bool in
                             lhs.upVote > rhs.upVote
                         }
-
                     }
                 }
-
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
                 }
@@ -79,7 +76,6 @@ class MainViewController: UIViewController {
 
 extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("Count: \(posts.count)")
         return posts.count
     }
 
