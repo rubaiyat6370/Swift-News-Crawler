@@ -17,14 +17,14 @@ class DataProviderServiceTest: XCTestCase {
         provider = DataProviderService(fetcher: MockDataFetcher())
         continueAfterFailure = false
     }
+    
     func testDataLoader() {
         let expectation = XCTestExpectation(description: "Download JSON data form url")
         provider.decodeDataFrom(urlString: "https://www.reddit.com/r/swift/.json", type: JSONData.self) { (data, error) in
             XCTAssertNil(error)
             XCTAssertNotNil(data)
             XCTAssertNotNil(data?.data)
-            XCTAssertNotNil(data?.data.children)
-            XCTAssertTrue((data?.data.children.count)! > 0)
+            XCTAssertNotNil(data?.data?.children)
 
             expectation.fulfill()
         }

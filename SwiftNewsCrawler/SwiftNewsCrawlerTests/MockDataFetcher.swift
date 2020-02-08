@@ -11,13 +11,15 @@ import Foundation
 
 class MockDataFetcher: DataFetchProtocol {
 
+    let testBundle: Bundle
+    init() {
+        testBundle = Bundle(for: type(of: self))
+    }
     func loadDataFrom(urlString: String, completionHandler: @escaping (Data?, Error?) -> Void) {
         guard URL(string: urlString) != nil else {
             completionHandler(nil, RequestError.invalidURL)
             return
         }
-
-        let testBundle = Bundle(for: type(of: self))
 
         if let path = testBundle.path(forResource: "RedditDummyPosts", ofType: "json", inDirectory: "Resources") {
             do {
@@ -35,12 +37,23 @@ class MockDataFetcher: DataFetchProtocol {
         }
 
     }
+
+    func readDataFromFile(name: String, type: String, directory: String) -> Data? {
+
+        if let path = testBundle.path(forResource: name, ofType: type, inDirectory: directory) {
+            do {
+                let string = try String(contentsOfFile: path, encoding: .utf8)
+                if let data = string.data(using: .utf8) {
+                    return data
+                } else {
+                    return nil
+                }
+
+            } catch {
+                return nil
+            }
+        }
+        return nil
+    }
 }
 
-// "[{\"form_id\":3465,\"canonical_name\":\"df_SAWERQ\",\"form_name\":\"Activity 4 with Images\",\"form_desc\":null}]"
-struct testModel: Decodable {
-    let form_id: Int
-    let canonical_name: String
-    let form_name: String
-    let form_desc: String?
-}

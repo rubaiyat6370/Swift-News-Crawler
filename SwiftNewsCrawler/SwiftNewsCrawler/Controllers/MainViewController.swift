@@ -54,13 +54,16 @@ class MainViewController: UIViewController {
     func requestForNews() {
         provider.decodeDataFrom(urlString: urlString, type: JSONData.self) { (data, error) in
             if let redditData = data {
-                let swiftPosts = redditData.data.children
-                self.posts = swiftPosts.map({ (child) -> SwiftNews in
-                    child.data
-                })
-                self.posts.sort { (lhs, rhs) -> Bool in
-                    lhs.upVote > rhs.upVote
+                if let postContainer = redditData.data {
+                    if let swiftPosts = postContainer.children {
+                        self.posts = swiftPosts.compactMap({ $0 }).compactMap({ $0.data })
+                        self.posts.sort { (lhs, rhs) -> Bool in
+                            lhs.upVote > rhs.upVote
+                        }
+
+                    }
                 }
+
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
                 }

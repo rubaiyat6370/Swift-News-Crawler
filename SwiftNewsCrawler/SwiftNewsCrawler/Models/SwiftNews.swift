@@ -58,13 +58,13 @@ class SwiftNews: Decodable {
 }
 
 struct ChildPost: Decodable {
-    let data: SwiftNews
+    let data: SwiftNews?
 }
 
 struct ChildData: Decodable {
-    let children: [ChildPost]
+    let children: [ChildPost]?
 }
 
 struct JSONData: Decodable {
-    let data: ChildData
+    let data: ChildData?
 }

@@ -23,6 +23,9 @@ class SwiftNewsModelTest: XCTestCase {
 
         }
     """
+    override func setUp() {
+        continueAfterFailure = false
+    }
 
     func testSwiftNewsModel() {
         let decoder = JSONDecoder()
@@ -34,6 +37,67 @@ class SwiftNewsModelTest: XCTestCase {
             XCTAssertEqual(swiftNews.description, "What Swift-related projects are you currently working on?")
         } catch {
             XCTFail("Decoding failed")
+        }
+    }
+
+    func testJSONDataModel(){
+        if let data = MockDataFetcher().readDataFromFile(name: "DummyPosts2", type: "json", directory: "Resources") {
+            let decoder = JSONDecoder()
+
+            do {
+                let jsonData = try decoder.decode(JSONData.self, from: data)
+                XCTAssertNotNil(jsonData)
+                XCTAssertNotNil(jsonData.data)
+                XCTAssertNotNil(jsonData.data?.children)
+            } catch {
+                XCTFail()
+            }
+
+        }
+    }
+
+    func testJSONDataInvalidModel(){
+        if let data = MockDataFetcher().readDataFromFile(name: "DummyPosts5", type: "json", directory: "Resources") {
+            let decoder = JSONDecoder()
+
+            do {
+                let jsonData = try decoder.decode(JSONData.self, from: data)
+                XCTAssertNotNil(jsonData)
+                XCTAssertNil(jsonData.data)
+            } catch {
+                XCTFail()
+            }
+
+        }
+    }
+
+    func testChildDataModel(){
+        if let data = MockDataFetcher().readDataFromFile(name: "DummyPosts3", type: "json", directory: "Resources") {
+            let decoder = JSONDecoder()
+
+            do {
+                let jsonData = try decoder.decode(ChildData.self, from: data)
+                XCTAssertNotNil(jsonData)
+                XCTAssertNotNil(jsonData.children)
+                XCTAssertTrue(jsonData.children!.count > 0)
+            } catch {
+                XCTFail()
+            }
+
+        }
+    }
+
+    func testChildPostModel(){
+        if let data = MockDataFetcher().readDataFromFile(name: "DummyPosts4", type: "json", directory: "Resources") {
+            let decoder = JSONDecoder()
+
+            do {
+                let jsonData = try decoder.decode(ChildPost.self, from: data)
+                XCTAssertNotNil(jsonData)
+            } catch {
+                XCTFail()
+            }
+
         }
     }
 }
