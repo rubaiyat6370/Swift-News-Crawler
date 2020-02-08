@@ -50,20 +50,39 @@ class MainViewController: UIViewController {
         self.tableView.rowHeight = UITableView.automaticDimension
     }
 
+    fileprivate func showNetworkErrorAlert() {
+        let alert = UIAlertController(title: "Network error!", message: "Unable to get data from server. Please check your internet connection and retry.", preferredStyle: .alert)
+
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Retry", style: .default, handler: { (_) in
+            self.requestForNews()
+        }))
+
+        DispatchQueue.main.async {
+            self.present(alert, animated: true)
+        }
+    }
+
+    fileprivate func loadTableData(_ redditData: JSONData) {
+        if let postContainer = redditData.data {
+            if let swiftPosts = postContainer.children {
+                self.posts = swiftPosts.compactMap({ $0 }).compactMap({ $0.data })
+                self.posts.sort { (lhs, rhs) -> Bool in
+                    lhs.upVote > rhs.upVote
+                }
+            }
+        }
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+    }
+
     func requestForNews() {
         provider.decodeDataFrom(urlString: urlString, type: JSONData.self) { (data, error) in
             if let redditData = data {
-                if let postContainer = redditData.data {
-                    if let swiftPosts = postContainer.children {
-                        self.posts = swiftPosts.compactMap({ $0 }).compactMap({ $0.data })
-                        self.posts.sort { (lhs, rhs) -> Bool in
-                            lhs.upVote > rhs.upVote
-                        }
-                    }
-                }
-                DispatchQueue.main.async {
-                    self.tableView.reloadData()
-                }
+                self.loadTableData(redditData)
+            } else {
+                self.showNetworkErrorAlert()
             }
         }
 

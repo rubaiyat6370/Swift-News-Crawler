@@ -39,6 +39,7 @@ class DataProviderService {
                 }
             } else {
                 print(error?.localizedDescription ?? "")
+                handler(nil, RequestError.requestError)
             }
 
         })
