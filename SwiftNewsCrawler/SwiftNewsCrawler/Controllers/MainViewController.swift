@@ -19,7 +19,7 @@ class MainViewController: UIViewController {
     // MARK: - Constants
     //
     private let urlString = "https://www.reddit.com/r/swift/.json"
-    private let tableViewHeightConstant: CGFloat = 200
+    private let tableViewHeightConstant: CGFloat = 600 // estimated row height to suppress the warning
     private let navBarTitleFont: CGFloat = {
         if AppUtils.deviceType == "iPhone" {
             return 14
@@ -113,10 +113,10 @@ extension MainViewController: UITableViewDataSource {
 extension MainViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-           let detailAVC = DetailArticleViewController(nibName: "DetailArticleViewController", bundle: nil)
-           let article = posts[indexPath.row]
-           detailAVC.article = article
-           self.navigationController?.pushViewController(detailAVC, animated: true)
+        let detailAVC = DetailArticleViewController(nibName: "DetailArticleViewController", bundle: nil)
+        let article = posts[indexPath.row]
+        detailAVC.article = article
+        self.navigationController?.pushViewController(detailAVC, animated: true)
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {

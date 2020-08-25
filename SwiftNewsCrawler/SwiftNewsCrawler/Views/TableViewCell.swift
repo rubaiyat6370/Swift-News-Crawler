@@ -62,7 +62,7 @@ class TableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         self.layer.borderColor = UIColor.black.cgColor
-        self.layer.borderWidth = 0.2
+        //self.layer.borderWidth = 0.2
     }
     
     fileprivate func setupThumbnail(image: UIImage, height: CGFloat, width: CGFloat) {
@@ -85,6 +85,8 @@ class TableViewCell: UITableViewCell {
         self.thumbnailTopConstraint.constant = topBottomConstant
         self.headlineTopConstraint.constant = topBottomConstant
         self.thumbnailBottomConstraint.constant = topBottomConstant
+        self.thumbnailBottomConstraint.constant = 50.0
+        print("test height \(self.thumbnailBottomConstraint.constant)")
     }
 
     fileprivate func downloadImage(_ news: SwiftNews) {

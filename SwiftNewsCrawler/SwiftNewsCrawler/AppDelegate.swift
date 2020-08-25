@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         self.window = UIWindow(frame: UIScreen.main.bounds)
+        print(UIScreen.main.bounds)
         let mainSB = UIStoryboard(name: "Main", bundle: nil)
         guard let rootVC = mainSB.instantiateInitialViewController() as? MainViewController else {
             return false
