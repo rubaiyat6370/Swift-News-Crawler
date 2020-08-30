@@ -1,0 +1,191 @@
+---
+format_version: '8'
+default_step_lib_source: 'https://github.com/bitrise-io/bitrise-steplib.git'
+project_type: ios
+trigger_map:
+- push_branch: '*'
+  workflow: primary
+- pull_request_source_branch: '*'
+  workflow: primary
+workflows:
+  deploy:
+    steps:
+    - activate-ssh-key@4:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4: {}
+    - cache-pull@2: {}
+    - script@1:
+        title: Do anything with Script step
+    - certificate-and-profile-installer@1: {}
+    - xcode-test@2:
+        inputs:
+        - project_path: $BITRISE_PROJECT_PATH
+        - scheme: $BITRISE_SCHEME
+    - xcode-archive@2:
+        inputs:
+        - project_path: $BITRISE_PROJECT_PATH
+        - scheme: $BITRISE_SCHEME
+        - export_method: $BITRISE_EXPORT_METHOD
+    - deploy-to-bitrise-io@1: {}
+    - cache-push@2: {}
+  primary:
+    envs:
+    - BITRISE_INFOPLIST_PATH: SwiftNewsCrawler/SwiftNewsCrawler/whiteInfo.plist
+    - BITRISE_APP_NAME: THIS_IS_TSET
+    steps:
+    - activate-ssh-key@4:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4: {}
+    - cache-pull@2: {}
+    - xcode-project-info@2:
+        inputs:
+        - info_plist_path: $BITRISE_INFOPLIST_PATH
+        - xcodeproj_path: $BITRISE_PROJECT_PATH
+    - script@1:
+        title: Do anything with Script step
+        inputs:
+        - content: >-
+            bin/env bash
+
+            # fail if any commands fails
+
+            set -e
+
+            # debug log
+
+            set -x
+
+
+            # write your script here
+
+            echo $BITRISE_PROJECT_PATH
+
+            echo $BITRISE_APP_NAME
+
+            echo $XPI_VERSION
+
+            echo $XPI_BUILD
+
+            #IFS=$'\n'
+
+            echo $BITRISE_INFOPLIST_PATH
+
+            buildNumber=$(/usr/libexec/PlistBuddy -c "Print CFBundleVersion"
+            $BITRISE_INFOPLIST_PATH)
+
+            echo $buildNumber
+
+            versionNumber=$(/usr/libexec/PlistBuddy -c "Print
+            CFBundleShortVersionString" "${BITRISE_INFOPLIST_PATH}")
+
+            echo $versionNumber
+
+            key="PRODUCT_NAME"
+
+            result=$(xcodebuild -project $BITRISE_PROJECT_PATH
+            -showBuildSettings | grep -w $key)
+
+            productName=$(echo $result | sed "s/^${key} = //")
+
+            echo $productName
+
+            #appName=$(/usr/libexec/PlistBuddy -c "Print CFBundleName"
+            "${BITRISE_INFOPLIST_PATH}")
+
+            #echo $appName
+    - xcode-archive@2:
+        inputs:
+        - export_method: development
+    - certificate-and-profile-installer@1: {}
+    - xcode-test@2:
+        inputs:
+        - project_path: $BITRISE_PROJECT_PATH
+        - export_uitest_artifacts: 'true'
+        - scheme: $BITRISE_SCHEME
+    - deploy-to-bitrise-io@1: {}
+    - cache-push@2: {}
+  PrimarySimulator:
+    envs:
+    - BITRISE_INFOPLIST_PATH: SwiftNewsCrawler/SwiftNewsCrawler/whiteInfo.plist
+    - BITRISE_APP_NAME: THIS_IS_TSET
+    - BITRISE_APP_DIR_ZIP_PATH: SwiftNewsCrawler/SwiftNewsCrawler
+    steps:
+    - activate-ssh-key@4:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4: {}
+    - cache-pull@2: {}
+    - xcode-project-info@2:
+        inputs:
+        - info_plist_path: $BITRISE_INFOPLIST_PATH
+        - xcodeproj_path: $BITRISE_PROJECT_PATH
+    - script@1:
+        title: Do anything with Script step
+        inputs:
+        - content: >-
+            bin/env bash
+
+            # fail if any commands fails
+
+            set -e
+
+            # debug log
+
+            set -x
+
+
+            # write your script here
+
+            echo $BITRISE_PROJECT_PATH
+
+            echo $BITRISE_APP_NAME
+
+            echo $XPI_VERSION
+
+            echo $XPI_BUILD
+
+            #IFS=$'\n'
+
+            echo $BITRISE_INFOPLIST_PATH
+
+            buildNumber=$(/usr/libexec/PlistBuddy -c "Print CFBundleVersion"
+            $BITRISE_INFOPLIST_PATH)
+
+            echo $buildNumber
+
+            versionNumber=$(/usr/libexec/PlistBuddy -c "Print
+            CFBundleShortVersionString" "${BITRISE_INFOPLIST_PATH}")
+
+            echo $versionNumber
+
+            key="PRODUCT_NAME"
+
+            result=$(xcodebuild -project $BITRISE_PROJECT_PATH
+            -showBuildSettings | grep -w $key)
+
+            productName=$(echo $result | sed "s/^${key} = //")
+
+            echo $productName
+
+            appName=$(/usr/libexec/PlistBuddy -c "Print CFBundleName"
+            "${BITRISE_INFOPLIST_PATH}")
+
+            echo $appName
+    - cache-pull@2: {}
+    - xcode-build-for-simulator@0: {}
+    - appetize-deploy@0:
+        inputs:
+        - app_path: $BITRISE_APP_DIR_PATH_LIST
+        - appetize_token: $BITRISE_APPETIZE_TOKEN
+        - verbose: 'true'
+app:
+  envs:
+  - opts:
+      is_expand: false
+    BITRISE_PROJECT_PATH: SwiftNewsCrawler/SwiftNewsCrawler.xcodeproj
+  - opts:
+      is_expand: false
+    BITRISE_SCHEME: SwiftNewsCrawler
+  - opts:
+      is_expand: false
+    BITRISE_EXPORT_METHOD: development
+  - BITRISE_INFOPLIST_PATH: SwiftNewsCrawler/SwiftNewsCrawler/Info.plist
