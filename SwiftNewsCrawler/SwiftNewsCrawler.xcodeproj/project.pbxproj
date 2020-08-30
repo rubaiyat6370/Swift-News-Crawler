@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFC9353524FBCA5300892E55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9353424FBCA5300892E55 /* AppDelegate.swift */; };
+		BFC9353724FBCA5300892E55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9353624FBCA5300892E55 /* SceneDelegate.swift */; };
+		BFC9353924FBCA5300892E55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC9353824FBCA5300892E55 /* ViewController.swift */; };
+		BFC9353C24FBCA5300892E55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC9353A24FBCA5300892E55 /* Main.storyboard */; };
+		BFC9353E24FBCA5600892E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC9353D24FBCA5600892E55 /* Assets.xcassets */; };
+		BFC9354124FBCA5600892E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC9353F24FBCA5600892E55 /* LaunchScreen.storyboard */; };
 		BFCB222523EB369D002A2E61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB222423EB369D002A2E61 /* AppDelegate.swift */; };
 		BFCB222E23EB36A1002A2E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCB222D23EB36A1002A2E61 /* Assets.xcassets */; };
 		BFCB223123EB36A1002A2E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCB222F23EB36A1002A2E61 /* LaunchScreen.storyboard */; };
@@ -40,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFC9353224FBCA5300892E55 /* WhiteLabelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteLabelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC9353424FBCA5300892E55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC9353624FBCA5300892E55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFC9353824FBCA5300892E55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFC9353B24FBCA5300892E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFC9353D24FBCA5600892E55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC9354024FBCA5600892E55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFC9354224FBCA5600892E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCB222123EB369D002A2E61 /* SwiftNewsCrawler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNewsCrawler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCB222423EB369D002A2E61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFCB222D23EB36A1002A2E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +81,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BFC9352F24FBCA5300892E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFCB221E23EB369D002A2E61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,11 +105,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFC9353324FBCA5300892E55 /* WhiteLabelTest */ = {
+			isa = PBXGroup;
+			children = (
+				BFC9353424FBCA5300892E55 /* AppDelegate.swift */,
+				BFC9353624FBCA5300892E55 /* SceneDelegate.swift */,
+				BFC9353824FBCA5300892E55 /* ViewController.swift */,
+				BFC9353A24FBCA5300892E55 /* Main.storyboard */,
+				BFC9353D24FBCA5600892E55 /* Assets.xcassets */,
+				BFC9353F24FBCA5600892E55 /* LaunchScreen.storyboard */,
+				BFC9354224FBCA5600892E55 /* Info.plist */,
+			);
+			path = WhiteLabelTest;
+			sourceTree = "<group>";
+		};
 		BFCB221823EB369D002A2E61 = {
 			isa = PBXGroup;
 			children = (
 				BFCB222323EB369D002A2E61 /* SwiftNewsCrawler */,
 				BFCB223A23EB36A1002A2E61 /* SwiftNewsCrawlerTests */,
+				BFC9353324FBCA5300892E55 /* WhiteLabelTest */,
 				BFCB222223EB369D002A2E61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +134,7 @@
 			children = (
 				BFCB222123EB369D002A2E61 /* SwiftNewsCrawler.app */,
 				BFCB223723EB36A1002A2E61 /* SwiftNewsCrawlerTests.xctest */,
+				BFC9353224FBCA5300892E55 /* WhiteLabelTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,6 +218,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BFC9353124FBCA5300892E55 /* WhiteLabelTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC9354524FBCA5600892E55 /* Build configuration list for PBXNativeTarget "WhiteLabelTest" */;
+			buildPhases = (
+				BFC9352E24FBCA5300892E55 /* Sources */,
+				BFC9352F24FBCA5300892E55 /* Frameworks */,
+				BFC9353024FBCA5300892E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteLabelTest;
+			productName = WhiteLabelTest;
+			productReference = BFC9353224FBCA5300892E55 /* WhiteLabelTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 		BFCB222023EB369D002A2E61 /* SwiftNewsCrawler */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFCB224023EB36A1002A2E61 /* Build configuration list for PBXNativeTarget "SwiftNewsCrawler" */;
@@ -222,10 +276,13 @@
 		BFCB221923EB369D002A2E61 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Rubaiyat Jahan Mumu";
 				TargetAttributes = {
+					BFC9353124FBCA5300892E55 = {
+						CreatedOnToolsVersion = 11.6;
+					};
 					BFCB222023EB369D002A2E61 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -250,11 +307,22 @@
 			targets = (
 				BFCB222023EB369D002A2E61 /* SwiftNewsCrawler */,
 				BFCB223623EB36A1002A2E61 /* SwiftNewsCrawlerTests */,
+				BFC9353124FBCA5300892E55 /* WhiteLabelTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BFC9353024FBCA5300892E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC9354124FBCA5600892E55 /* LaunchScreen.storyboard in Resources */,
+				BFC9353E24FBCA5600892E55 /* Assets.xcassets in Resources */,
+				BFC9353C24FBCA5300892E55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFCB221F23EB369D002A2E61 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +346,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BFC9352E24FBCA5300892E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC9353924FBCA5300892E55 /* ViewController.swift in Sources */,
+				BFC9353524FBCA5300892E55 /* AppDelegate.swift in Sources */,
+				BFC9353724FBCA5300892E55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BFCB221D23EB369D002A2E61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,6 +395,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BFC9353A24FBCA5300892E55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC9353B24FBCA5300892E55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFC9353F24FBCA5600892E55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC9354024FBCA5600892E55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		BFCB222F23EB36A1002A2E61 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,6 +430,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BFC9354324FBCA5600892E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhiteLabelTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rubaiyat.WhiteLabelTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC9354424FBCA5600892E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WhiteLabelTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rubaiyat.WhiteLabelTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BFCB223E23EB36A1002A2E61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -533,6 +663,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BFC9354524FBCA5600892E55 /* Build configuration list for PBXNativeTarget "WhiteLabelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC9354324FBCA5600892E55 /* Debug */,
+				BFC9354424FBCA5600892E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BFCB221C23EB369D002A2E61 /* Build configuration list for PBXProject "SwiftNewsCrawler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
