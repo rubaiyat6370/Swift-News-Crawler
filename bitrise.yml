@@ -31,6 +31,7 @@ workflows:
   primary:
     envs:
     - BITRISE_INFOPLIST_PATH: SwiftNewsCrawler/SwiftNewsCrawler/whiteInfo.plist
+    - BITRISE_APPETIZE_TOKEN: tok_kaq602vwkwuv14ajrcrd0zfra8
     - BITRISE_APP_NAME: THIS_IS_TSET
     steps:
     - activate-ssh-key@4:
@@ -89,10 +90,9 @@ workflows:
 
             echo $productName
 
-            #appName=$(/usr/libexec/PlistBuddy -c "Print CFBundleName"
+            appName=$(/usr/libexec/PlistBuddy -c "Print CFBundleName"
             "${BITRISE_INFOPLIST_PATH}")
-
-            #echo $appName
+            echo $appName
     - xcode-archive@2:
         inputs:
         - export_method: development
@@ -189,3 +189,4 @@ app:
       is_expand: false
     BITRISE_EXPORT_METHOD: development
   - BITRISE_INFOPLIST_PATH: SwiftNewsCrawler/SwiftNewsCrawler/Info.plist
+  - BITRISE_APPETIZE_TOKEN: tok_kaq602vwkwuv14ajrcrd0zfra8
