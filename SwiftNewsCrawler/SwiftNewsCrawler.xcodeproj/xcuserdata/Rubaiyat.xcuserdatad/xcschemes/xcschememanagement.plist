@@ -11,12 +11,19 @@
 		</dict>
 		<key>WhiteLabelTest.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>BFC9353124FBCA5300892E55</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>BFCB222023EB369D002A2E61</key>
 		<dict>
 			<key>primary</key>
