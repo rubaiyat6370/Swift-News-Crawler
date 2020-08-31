@@ -86,7 +86,7 @@ class TableViewCell: UITableViewCell {
         self.headlineTopConstraint.constant = topBottomConstant
         self.thumbnailBottomConstraint.constant = topBottomConstant
         self.thumbnailBottomConstraint.constant = 50.0
-        print("test height \(self.thumbnailBottomConstraint.constant)")
+        //print("test height \(self.thumbnailBottomConstraint.constant)")
     }
 
     fileprivate func downloadImage(_ news: SwiftNews) {

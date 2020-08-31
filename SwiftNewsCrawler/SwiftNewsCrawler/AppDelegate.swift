@@ -14,9 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
+        let statusBarColor = Bundle.main.object(forInfoDictionaryKey: "Status bar color") as! String
+        print(statusBarColor)
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        print(UIScreen.main.bounds)
+        //print(UIScreen.main.bounds)
         let mainSB = UIStoryboard(name: "Main", bundle: nil)
         guard let rootVC = mainSB.instantiateInitialViewController() as? MainViewController else {
             return false
