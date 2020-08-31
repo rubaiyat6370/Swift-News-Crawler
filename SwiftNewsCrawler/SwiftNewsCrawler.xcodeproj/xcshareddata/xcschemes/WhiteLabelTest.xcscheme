@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BF706C1524FD6B9A007A775A"
+               BuildableName = "WhiteLabelTestUITests.xctest"
+               BlueprintName = "WhiteLabelTestUITests"
+               ReferencedContainer = "container:SwiftNewsCrawler.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
