@@ -143,10 +143,57 @@ workflows:
     - activate-ssh-key@4:
         run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
     - git-clone@4: {}
-    - xcode-test@2:
+    - cache-pull@2: {}
+    - set-ios-info-plist-unified@1:
         inputs:
-        - export_uitest_artifacts: 'true'
-    - xcode-build-for-simulator@0: {}
+        - app_icon_asset_catalog: ''
+        - info_plist_file: "$WHITELABELTEST_PLIST"
+    - xcode-project-info@2:
+        inputs:
+        - info_plist_path: "$WHITELABELTEST_PLIST"
+        - xcodeproj_path: "$BITRISE_PROJECT_PATH"
+    - script@1:
+        title: Do anything with Script step
+        inputs:
+        - content: |
+            bin/env bash
+            # fail if any commands fails
+            set -e
+            # debug log
+            set -x
+
+            # write your script here
+            echo $BITRISE_PROJECT_PATH
+            echo $BITRISE_APP_NAME
+            echo $XPI_VERSION
+            echo $XPI_BUILD
+            #IFS=$'\n'
+            echo $BITRISE_INFOPLIST_PATH
+            buildNumber=$(/usr/libexec/PlistBuddy -c "Print CFBundleVersion" $BITRISE_INFOPLIST_PATH)
+            echo $buildNumber
+            versionNumber=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" "${BITRISE_INFOPLIST_PATH}")
+            echo $versionNumber
+            key="PRODUCT_NAME"
+            result=$(xcodebuild -project $BITRISE_PROJECT_PATH -showBuildSettings | grep -w $key)
+            productName=$(echo $result | sed "s/^${key} = //")
+            echo $productName
+            $(/usr/libexec/PlistBuddy -c "Set CFBundleDisplayName NewWhiteLabelAPP" "${WHITELABELTEST_PLIST}")
+    - script@1:
+        title: Print Plist Element
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            # fail if any commands fails
+            set -e
+            # debug log
+            set -x
+
+            appName=$(/usr/libexec/PlistBuddy -c "Print CFBundleName NewWhiteLabelAPP" "${WHITELABELTEST_PLIST}")
+            echo $appName
+    - cache-pull@2: {}
+    - xcode-build-for-simulator@0:
+        inputs:
+        - simulator_device: iPhone 8
     - appetize-deploy@0:
         inputs:
         - app_path: "$BITRISE_APP_DIR_PATH_LIST"
