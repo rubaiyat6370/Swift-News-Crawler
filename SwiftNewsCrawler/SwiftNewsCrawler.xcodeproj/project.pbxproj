@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF6A0A4A2513E8440064346B /* shared in Resources */ = {isa = PBXBuildFile; fileRef = BF6A0A492513E8440064346B /* shared */; };
-		BF6A0A4B2513E8440064346B /* shared in Resources */ = {isa = PBXBuildFile; fileRef = BF6A0A492513E8440064346B /* shared */; };
+		9CD779192515181D00DC753D /* buildScript.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9CD779152515181D00DC753D /* buildScript.sh */; };
+		9CD7791B2515181D00DC753D /* generateAppIcon.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9CD779172515181D00DC753D /* generateAppIcon.sh */; };
+		9CD7791C2515181D00DC753D /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD779182515181D00DC753D /* color.png */; };
+		9CD7792325151CD800DC753D /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7792225151CD800DC753D /* appIcon.png */; };
+		9CD7792725151CE100DC753D /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7792525151CE100DC753D /* appIcon.png */; };
 		BF706C1924FD6B9A007A775A /* WhiteLabelTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF706C1824FD6B9A007A775A /* WhiteLabelTestUITests.swift */; };
 		BFC9353E24FBCA5600892E55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC9353D24FBCA5600892E55 /* Assets.xcassets */; };
 		BFC9354624FBECFC00892E55 /* DataProviderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCB227923ED0B74002A2E61 /* DataProviderService.swift */; };
@@ -66,7 +69,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF6A0A492513E8440064346B /* shared */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shared; sourceTree = "<group>"; };
+		9CD779152515181D00DC753D /* buildScript.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = buildScript.sh; sourceTree = "<group>"; };
+		9CD779172515181D00DC753D /* generateAppIcon.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = generateAppIcon.sh; sourceTree = "<group>"; };
+		9CD779182515181D00DC753D /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
+		9CD7792225151CD800DC753D /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+		9CD7792525151CE100DC753D /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
 		BF6A0A4C2513F1E70064346B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BF706C0024FD3C7D007A775A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF706C0224FD3C7D007A775A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +146,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CD779142515181D00DC753D /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				9CD779152515181D00DC753D /* buildScript.sh */,
+				9CD779172515181D00DC753D /* generateAppIcon.sh */,
+				9CD779182515181D00DC753D /* color.png */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		9CD7791D2515182D00DC753D /* RawImages */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7792225151CD800DC753D /* appIcon.png */,
+			);
+			name = RawImages;
+			path = SwiftNewsCrawler/RawImages;
+			sourceTree = SOURCE_ROOT;
+		};
+		9CD7792425151CE100DC753D /* RawImages */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7792525151CE100DC753D /* appIcon.png */,
+			);
+			path = RawImages;
+			sourceTree = "<group>";
+		};
 		BF706BFF24FD3C7D007A775A /* IconTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +199,7 @@
 		BFC9353324FBCA5300892E55 /* WhiteLabelTest */ = {
 			isa = PBXGroup;
 			children = (
+				9CD7792425151CE100DC753D /* RawImages */,
 				BFC9353D24FBCA5600892E55 /* Assets.xcassets */,
 				BFC9354224FBCA5600892E55 /* Info.plist */,
 			);
@@ -175,7 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				BF6A0A4C2513F1E70064346B /* Default-568h@2x.png */,
-				BF6A0A492513E8440064346B /* shared */,
+				9CD779142515181D00DC753D /* shared */,
 				BFCB222323EB369D002A2E61 /* SwiftNewsCrawler */,
 				BFCB223A23EB36A1002A2E61 /* SwiftNewsCrawlerTests */,
 				BFC9353324FBCA5300892E55 /* WhiteLabelTest */,
@@ -199,6 +234,7 @@
 		BFCB222323EB369D002A2E61 /* SwiftNewsCrawler */ = {
 			isa = PBXGroup;
 			children = (
+				9CD7791D2515182D00DC753D /* RawImages */,
 				BFCB22A223EE2C3B002A2E61 /* Services */,
 				BFCB229A23EDC126002A2E61 /* Utils */,
 				BFCB224823EB462A002A2E61 /* Controllers */,
@@ -297,10 +333,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFC9354524FBCA5600892E55 /* Build configuration list for PBXNativeTarget "WhiteLabelTest" */;
 			buildPhases = (
+				BF6A0A452513E78D0064346B /* ShellScript */,
 				BFC9352E24FBCA5300892E55 /* Sources */,
 				BFC9352F24FBCA5300892E55 /* Frameworks */,
 				BFC9353024FBCA5300892E55 /* Resources */,
-				BF6A0A452513E78D0064346B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -315,10 +351,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFCB224023EB36A1002A2E61 /* Build configuration list for PBXNativeTarget "SwiftNewsCrawler" */;
 			buildPhases = (
+				BF7D3E712512C08B00F8CCA0 /* ShellScript */,
 				BFCB221D23EB369D002A2E61 /* Sources */,
 				BFCB221E23EB369D002A2E61 /* Frameworks */,
 				BFCB221F23EB369D002A2E61 /* Resources */,
-				BF7D3E712512C08B00F8CCA0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -407,8 +443,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC9354F24FBED2000892E55 /* TableViewCell.xib in Resources */,
-				BF6A0A4B2513E8440064346B /* shared in Resources */,
 				BFC9354D24FBED1800892E55 /* DetailArticleViewController.xib in Resources */,
+				9CD7792725151CE100DC753D /* appIcon.png in Resources */,
 				BFC9353E24FBCA5600892E55 /* Assets.xcassets in Resources */,
 				BFC9355424FBED3100892E55 /* LaunchScreen.storyboard in Resources */,
 				BFC9354A24FBED0C00892E55 /* Main.storyboard in Resources */,
@@ -419,9 +455,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD7791C2515181D00DC753D /* color.png in Resources */,
+				9CD7791B2515181D00DC753D /* generateAppIcon.sh in Resources */,
+				9CD7792325151CD800DC753D /* appIcon.png in Resources */,
 				BFCB223123EB36A1002A2E61 /* LaunchScreen.storyboard in Resources */,
-				BF6A0A4A2513E8440064346B /* shared in Resources */,
 				BFCB22A123EE0FEB002A2E61 /* Main.storyboard in Resources */,
+				9CD779192515181D00DC753D /* buildScript.sh in Resources */,
 				BFCB226C23EC9CCC002A2E61 /* DetailArticleViewController.xib in Resources */,
 				BFCB224E23EB4C75002A2E61 /* TableViewCell.xib in Resources */,
 				BFCB222E23EB36A1002A2E61 /* Assets.xcassets in Resources */,
@@ -441,13 +480,14 @@
 /* Begin PBXShellScriptBuildPhase section */
 		BF6A0A452513E78D0064346B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
 				"$(SRCROOT)/shared/buildScript.sh",
+				"$(SRCROOT)/shared/generateAppIcon.sh",
 			);
 			outputFileListPaths = (
 			);
@@ -455,17 +495,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "FILE=${SCRIPT_INPUT_FILE_0}\nchmod 755 $FILE\n`$FILE`\n";
+			shellScript = "FILE=${SCRIPT_INPUT_FILE_1}\nchmod 755 $FILE\n`$FILE`\n";
 		};
 		BF7D3E712512C08B00F8CCA0 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
 			);
 			inputPaths = (
 				"$(SRCROOT)/shared/buildScript.sh",
+				"$(SRCROOT)/shared/generateAppIcon.sh",
 			);
 			outputFileListPaths = (
 			);
@@ -473,7 +514,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "FILE=${SCRIPT_INPUT_FILE_0}\nchmod 755 $FILE\n`$FILE`\n";
+			shellScript = "FILE=${SCRIPT_INPUT_FILE_1}\nchmod 755 $FILE\n`$FILE`\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
