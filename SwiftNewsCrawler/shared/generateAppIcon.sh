@@ -25,23 +25,26 @@ iconPath="./"$TARGET_NAME"/Assets.xcassets/AppIcon.appiconset"
 
 echo "$iconPath" 1>&2
 
+launchScreenBackground="./"$TARGET_NAME"/Assets.xcassets/background.imageset"
+launchScreenCenter="./"$TARGET_NAME"/Assets.xcassets/center.imageset"
+
 mkdir -p "$iconPath"
-
-backgroundPath="./"$TARGET_NAME"/Assets.xcassets/background.imageset"
-
-mkdir -p "$backgroundPath"
+mkdir -p "$launchScreenBackground"
+mkdir -p "$launchScreenCenter"
 
 # clean it out
 rm -rf $iconPath/*.png
-rm -rf $backgroundPath/*.png
+rm -rf $launchScreenBackground/*.png
+rm -rf $launchScreenCenter/*.png
 
-COLOR=$(/usr/libexec/PlistBuddy -c "Print backgroundColor" "${PROJECT_DIR}/${INFOPLIST_FILE}")
+# read statusBarColor from info.plist
+COLOR=$(/usr/libexec/PlistBuddy -c "Print statusBarColor" "${PROJECT_DIR}/${INFOPLIST_FILE}")
 #echo $COLOR
-convert -size 1242x2208 xc:$COLOR $backgroundPath/background@3x.png
-convert -size 640x1136 xc:$COLOR $backgroundPath/background@2x.png
-convert -size 320x480 xc:$COLOR $backgroundPath/background.png
+convert -size 1242x2208 xc:$COLOR $launchScreenBackground/background@3x.png
+convert -size 640x1136 xc:$COLOR $launchScreenBackground/background@2x.png
+convert -size 320x480 xc:$COLOR $launchScreenBackground/background.png
 
-cat > "$backgroundPath/Contents.json" << EOF
+cat > "$launchScreenBackground/Contents.json" << EOF
 {
   "images" : [
     {
@@ -67,6 +70,39 @@ cat > "$backgroundPath/Contents.json" << EOF
 }
 EOF
 
+#LaunchScreenCenter imageset generation
+
+convert $sourceIconName -resize 341x341 $launchScreenCenter/center.png
+convert $sourceIconName -resize 682x682 $launchScreenCenter/center@2x.png
+convert $sourceIconName -resize 1024x1024 $launchScreenCenter/center@3x.png
+
+cat > "$launchScreenCenter/Contents.json" << EOF
+{
+  "images" : [
+    {
+      "filename" : "center.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "center@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "center@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
+EOF
+
+#App Icon Generation
 # iPhone Notification
 convert $sourceIconName -resize 40x40 $iconPath/iPhone-Notification-20pt@2x.png
 convert $sourceIconName -resize 60x60 $iconPath/iPhone-Notification-20pt@3x.png
@@ -235,3 +271,4 @@ cat > "$iconPath/Contents.json" << EOF
   }
 }
 EOF
+
