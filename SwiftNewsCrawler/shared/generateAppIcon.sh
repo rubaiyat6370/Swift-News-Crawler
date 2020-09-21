@@ -27,8 +27,45 @@ echo "$iconPath" 1>&2
 
 mkdir -p "$iconPath"
 
+backgroundPath="./"$TARGET_NAME"/Assets.xcassets/background.imageset"
+
+mkdir -p "$backgroundPath"
+
 # clean it out
 rm -rf $iconPath/*.png
+rm -rf $backgroundPath/*.png
+
+COLOR=$(/usr/libexec/PlistBuddy -c "Print backgroundColor" "${PROJECT_DIR}/${INFOPLIST_FILE}")
+#echo $COLOR
+convert -size 1242x2208 xc:$COLOR $backgroundPath/background@3x.png
+convert -size 640x1136 xc:$COLOR $backgroundPath/background@2x.png
+convert -size 320x480 xc:$COLOR $backgroundPath/background.png
+
+cat > "$backgroundPath/Contents.json" << EOF
+{
+  "images" : [
+    {
+      "filename" : "background.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "background@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "background@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
+EOF
 
 # iPhone Notification
 convert $sourceIconName -resize 40x40 $iconPath/iPhone-Notification-20pt@2x.png
