@@ -18,7 +18,7 @@ rm -rf $launchScreenCenter/*.png
 
 
 # read statusBarColor from info.plist
-COLOR=$(/usr/libexec/PlistBuddy -c "Print statusBarColor" "${PROJECT_DIR}/${INFOPLIST_FILE}")
+COLOR=$(/usr/libexec/PlistBuddy -c "Print backgroundColor" "${PROJECT_DIR}/${INFOPLIST_FILE}")
 #echo $COLOR
 convert -size 1242x2208 xc:$COLOR $launchScreenBackground/background@3x.png
 convert -size 640x1136 xc:$COLOR $launchScreenBackground/background@2x.png
